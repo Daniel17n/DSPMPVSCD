@@ -1,0 +1,16 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".txt" #>
+<#@ DSPMPVSCD_UPMovie processor="DSPMPVSCD_UPMovieDirectiveProcessor" requires="fileName='Sample.DSPMPVSCD_DSLUPMovie'" #>
+
+Generated material. Generating code in C#.
+
+<#
+  // When you change the DSL Definition, some of the code below may not work.
+
+  foreach (ExampleElement element in this.ExampleModel.Elements)
+  {
+#>
+	<#= element.Name #>
+<#    
+  }
+#>

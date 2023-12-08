@@ -1,0 +1,75 @@
+﻿@model GRV.Models.AlquilerCoche
+
+@{
+    ViewBag.Extra = "Detalles";
+    ViewBag.Title = "G.R.V" + " - " + ViewBag.Extra;
+}
+
+<h2>@ViewBag.Extra</h2>
+
+<div>
+    <h4>Alquiler de Coche</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ComaniaAlquiler)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ComaniaAlquiler)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DireccionRecogida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DireccionRecogida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoCoche)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoCoche)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NPlazas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NPlazas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NCoches)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NCoches)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfreceSeguro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfreceSeguro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SillaNinio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SillaNinio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.AlquilerCocheID }) |
+    @Html.ActionLink("Volver a la lista", "Index")
+</p>

@@ -1,0 +1,82 @@
+﻿@model GRV.Models.AlquilerCoche
+
+@{
+    ViewBag.Extra = "Eliminar";
+    ViewBag.Title = "G.R.V" + " - " + ViewBag.Extra;
+}
+
+<h2>@ViewBag.Extra</h2>
+
+<h3>¿Estás seguro de que quieres eliminar esto?</h3>
+<div>
+    <h4>Alquiler de Coche</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ComaniaAlquiler)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ComaniaAlquiler)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DireccionRecogida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DireccionRecogida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoCoche)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoCoche)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NPlazas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NPlazas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NCoches)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NCoches)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfreceSeguro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfreceSeguro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SillaNinio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SillaNinio)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver a la lista", "Index")
+        </div>
+    }
+</div>

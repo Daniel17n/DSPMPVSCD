@@ -1,0 +1,81 @@
+﻿@model IEnumerable<GRV.Models.BilleteTren>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Compania)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstacionOrigen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstacionDestino)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EsTrenCafetería)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NPlazas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HoraSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HoraLlegada)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Compania)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tipo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstacionOrigen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstacionDestino)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EsTrenCafetería)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NPlazas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoraSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoraLlegada)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BilleteTrenID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BilleteTrenID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BilleteTrenID })
+        </td>
+    </tr>
+}
+
+</table>

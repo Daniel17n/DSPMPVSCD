@@ -1,0 +1,82 @@
+﻿@model GRV.Models.BilleteAvion
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BilleteAvion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ComaniaAerea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ComaniaAerea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AeropuertoOrigen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AeropuertoOrigen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AeropuertoDestino)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AeropuertoDestino)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EsLowCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EsLowCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NPlazas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NPlazas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraSalida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoraSalida)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraLlegada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoraLlegada)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BilleteAvionID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

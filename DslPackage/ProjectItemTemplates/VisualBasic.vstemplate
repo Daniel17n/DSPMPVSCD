@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{69d13ec7-3180-41cb-bd25-2b002030fe57}</TemplateID>
+		<Name Package="{1db3b53e-c312-4f3c-905d-e58fb47dac7a}" ID="103"/>
+		<Description Package="{1db3b53e-c312-4f3c-905d-e58fb47dac7a}" ID="102"/>
+		<Icon Package="{1db3b53e-c312-4f3c-905d-e58fb47dac7a}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>DSPMPVSCD_UPMovie.DSPMPVSCD_DSLUPMovie</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.DSPMPVSCD_DSLUPMovie">DSPMPVSCD_DSLUPMovie.DSPMPVSCD_DSLUPMovie</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.DSPMPVSCD_DSLUPMovie.diagram">DSPMPVSCD_DSLUPMovie.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
