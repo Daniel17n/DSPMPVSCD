@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSPMPVSCDProyectoIPSDiagram dslVersion="1.0.0.0" Id="71d61ade-0f52-4728-89d2-8b51b665e64c" absoluteBounds="0, 0, 11, 8.5" name="Sample">
+  <exampleModelMoniker Id="c2452e2b-201b-4a7d-8435-30719d0debf4" />
+  <nestedChildShapes>
+    <exampleShape Id="9ef46338-17ab-4599-94dc-54d577ad190c" absoluteBounds="0.5, 1.75, 2, 0.75">
+      <exampleElementMoniker name="/c2452e2b-201b-4a7d-8435-30719d0debf4/ExampleElement1" />
+    </exampleShape>
+    <exampleShape Id="f9e6ce30-4c58-4405-9321-a9ad4370103d" absoluteBounds="3, 0.5, 2, 0.75">
+      <exampleElementMoniker name="/c2452e2b-201b-4a7d-8435-30719d0debf4/ExampleElement2" />
+    </exampleShape>
+    <exampleConnector Id="19fd6c66-7401-43bb-bebd-538eb33ea3b0" edgePoints="[(1.5 : 1.75); (1.5 : 0.875); (3 : 0.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="72b91799-8b56-4067-9f43-2ca3786db497">
+      <nodes>
+        <exampleShapeMoniker Id="9ef46338-17ab-4599-94dc-54d577ad190c" />
+        <exampleShapeMoniker Id="f9e6ce30-4c58-4405-9321-a9ad4370103d" />
+      </nodes>
+    </exampleConnector>
+  </nestedChildShapes>
+</dSPMPVSCDProyectoIPSDiagram>
