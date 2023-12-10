@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.10318</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7b9adf83-48a8-4d31-9165-7f54d99377bd}</ProjectGuid>
+    <ProjectGuid>{7B9ADF83-48A8-4D31-9165-7F54D99377BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Debugging</RootNamespace>
@@ -52,9 +52,9 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DSPMPVSCDProyectoIPSReportVB.txt</LastGenOutput>
     </None>
-    <None Include="Sample.DSPMPVSCD_DSLProyectoIPS" />
-    <None Include="Sample.DSPMPVSCD_DSLProyectoIPS.diagram">
-      <DependentUpon>Sample.DSPMPVSCD_DSLProyectoIPS</DependentUpon>
+    <None Include="EjemploUPMovie.DSPMPVSCD_DSLProyectoIPS" />
+    <None Include="EjemploUPMovie.DSPMPVSCD_DSLProyectoIPS.diagram">
+      <DependentUpon>EjemploUPMovie.DSPMPVSCD_DSLProyectoIPS</DependentUpon>
     </None>
     <None Include="Test.DSPMPVSCD_DSLProyectoIPS" />
     <None Include="Test.DSPMPVSCD_DSLProyectoIPS.diagram">

@@ -82,6 +82,8 @@
       <LastGenOutput>SerializationHelper.cs</LastGenOutput>
     </None>
     <Compile Include="CodigoAdicional\FixUpDiagram.cs" />
+    <Compile Include="DesignerCustomization\Atributo.cs" />
+    <Compile Include="DesignerCustomization\Operacion.cs" />
     <Compile Include="GeneratedCode\ConnectionBuilders.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

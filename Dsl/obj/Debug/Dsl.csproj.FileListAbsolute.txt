@@ -1,3 +1,6 @@
+C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx.resources
+C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\Dsl.csproj.GenerateResource.cache
+C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\Dsl.csproj.CoreCompileInputs.cache
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\bin\Debug\GeneratedCode\DSPMPVSCDProyectoIPSSchema.xsd
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\bin\Debug\UPM_IPS.DSPMPVSCDProyectoIPS.Dsl.dll
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\bin\Debug\UPM_IPS.DSPMPVSCDProyectoIPS.Dsl.pdb
@@ -74,9 +77,6 @@ C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\bin\Debug\es\Microsoft.Visua
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\bin\Debug\es\Microsoft.VisualStudio.Shell.15.0.resources.dll
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\bin\Debug\en\Microsoft.VisualStudio.Imaging.resources.dll
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx.resources
-C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\Dsl.csproj.GenerateResource.cache
-C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\Dsl.csproj.CoreCompileInputs.cache
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\Dsl.csproj.CopyComplete
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\UPM_IPS.DSPMPVSCDProyectoIPS.Dsl.dll
 C:\Users\Danie\Source\Repos\Daniel17n\DSPMPVSCD\Dsl\obj\Debug\UPM_IPS.DSPMPVSCDProyectoIPS.Dsl.pdb

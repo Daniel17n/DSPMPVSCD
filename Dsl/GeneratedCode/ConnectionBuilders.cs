@@ -89,6 +89,7 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 					{
 						global::UPM_IPS.DSPMPVSCDProyectoIPS.Clase sourceClase = (global::UPM_IPS.DSPMPVSCDProyectoIPS.Clase)candidateSource;
 						global::UPM_IPS.DSPMPVSCDProyectoIPS.Clase targetClase = (global::UPM_IPS.DSPMPVSCDProyectoIPS.Clase)candidateTarget;
+						if(targetClase == null || global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.GetLinkToClasePadre(targetClase) != null) return false;
 						if(targetClase == null || sourceClase == null || global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.GetLinks(sourceClase, targetClase).Count > 0) return false;
 						return true;
 					}

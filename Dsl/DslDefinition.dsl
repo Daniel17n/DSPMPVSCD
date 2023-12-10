@@ -32,6 +32,11 @@
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
         </DomainProperty>
+        <DomainProperty Id="94c699db-c2ea-4c77-b244-94c202880307" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.Atributo.Nombre YTipo" Name="NombreYTipo" DisplayName="Nombre YTipo" Kind="Calculated" IsBrowsable="false" IsUIReadOnly="true">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
       </Properties>
     </DomainClass>
     <DomainClass Id="d630cbf8-6859-4c35-bff4-da7d27cca219" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.Operacion" Name="Operacion" DisplayName="Operacion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS">
@@ -46,11 +51,16 @@
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
         </DomainProperty>
+        <DomainProperty Id="34f5d702-00be-45f4-8fe9-0f8de93d2d70" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.Operacion.Nombre YParametros" Name="NombreYParametros" DisplayName="Nombre YParametros" Kind="CustomStorage" IsBrowsable="false" IsUIReadOnly="true">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
       </Properties>
     </DomainClass>
     <DomainClass Id="88146686-d5b7-47a9-b54f-cb838cf21d71" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.Clase" Name="Clase" DisplayName="Clase" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS">
       <Properties>
-        <DomainProperty Id="6f6a955b-faae-4b28-8fab-5f94f25fa13a" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.Clase.Nombre" Name="Nombre" DisplayName="Nombre">
+        <DomainProperty Id="6f6a955b-faae-4b28-8fab-5f94f25fa13a" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.Clase.Nombre" Name="Nombre" DisplayName="Nombre" DefaultValue="Clase 1">
           <Type>
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
@@ -82,7 +92,7 @@
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
         </DomainProperty>
-        <DomainProperty Id="d7bd54e0-9020-4f70-b018-de11ea5a3386" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.Tipo Color" Name="TipoColor" DisplayName="Tipo Color">
+        <DomainProperty Id="d7bd54e0-9020-4f70-b018-de11ea5a3386" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.Color Letra" Name="ColorLetra" DisplayName="Color Letra">
           <Type>
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
@@ -156,11 +166,6 @@
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
         </DomainProperty>
-        <DomainProperty Id="f5d92f28-1a0c-4904-8daa-d84e2f5e5594" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo.Formato Booleano" Name="FormatoBooleano" DisplayName="Formato Booleano">
-          <Type>
-            <ExternalTypeMoniker Name="/System/String" />
-          </Type>
-        </DomainProperty>
       </Properties>
     </DomainClass>
   </Classes>
@@ -229,7 +234,7 @@
         </DomainRole>
       </Source>
       <Target>
-        <DomainRole Id="34be280c-9133-4959-aa39-8aba082dd7ab" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.TargetClase" Name="TargetClase" DisplayName="Target Clase" PropertyName="ClasePadre" PropertyDisplayName="Clase Padre">
+        <DomainRole Id="34be280c-9133-4959-aa39-8aba082dd7ab" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.TargetClase" Name="TargetClase" DisplayName="Target Clase" PropertyName="ClasePadre" Multiplicity="ZeroOne" PropertyDisplayName="Clase Padre">
           <RolePlayer>
             <DomainClassMoniker Name="Clase" />
           </RolePlayer>
@@ -291,6 +296,16 @@
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
         </DomainProperty>
+        <DomainProperty Id="3ed00840-3814-496d-a571-577271b318c3" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Cardinalidad Izquierda" Name="CardinalidadIzquierda" DisplayName="Cardinalidad Izquierda">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
+        <DomainProperty Id="b42e2e35-4278-44b7-806c-c6947c4b8a2a" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Cardinalidad Derecha" Name="CardinalidadDerecha" DisplayName="Cardinalidad Derecha">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
       </Properties>
       <Source>
         <DomainRole Id="2fd54998-bcc0-4932-b6b3-94f073b259d8" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.SourceClase" Name="SourceClase" DisplayName="Source Clase" PropertyName="ClaseAgregada" PropertyDisplayName="Clase Agregada">
@@ -314,6 +329,16 @@
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
         </DomainProperty>
+        <DomainProperty Id="f4ac1df6-8781-486b-b537-defdba4294bf" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Cardinalidad Izquierda" Name="CardinalidadIzquierda" DisplayName="Cardinalidad Izquierda">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
+        <DomainProperty Id="d6bd7899-26d1-4152-ac9a-256d7badf448" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Cardinalidad Derecha" Name="CardinalidadDerecha" DisplayName="Cardinalidad Derecha">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
       </Properties>
       <Source>
         <DomainRole Id="c925d2bb-406b-48b2-9b7a-9437aef65173" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.SourceClase" Name="SourceClase" DisplayName="Source Clase" PropertyName="ClaseComponente" PropertyDisplayName="Clase Componente">
@@ -333,6 +358,16 @@
     <DomainRelationship Id="6ac4b6a7-89db-4052-9516-4b388e167d3d" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase" Name="ClaseAsociaClase" DisplayName="Clase Asocia Clase" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS">
       <Properties>
         <DomainProperty Id="2bb8c110-9eb2-4acf-9784-3676e5680456" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Nombre" Name="Nombre" DisplayName="Nombre">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
+        <DomainProperty Id="3751be09-f25f-4fa9-a535-5fadef5e86e7" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Cardinalidad Izquierda" Name="CardinalidadIzquierda" DisplayName="Cardinalidad Izquierda">
+          <Type>
+            <ExternalTypeMoniker Name="/System/String" />
+          </Type>
+        </DomainProperty>
+        <DomainProperty Id="801238af-71b8-4cf6-b854-7429ea0ab4f7" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Cardinalidad Derecha" Name="CardinalidadDerecha" DisplayName="Cardinalidad Derecha">
           <Type>
             <ExternalTypeMoniker Name="/System/String" />
           </Type>
@@ -387,32 +422,96 @@
     </DomainEnumeration>
   </Types>
   <Shapes>
-    <GeometryShape Id="0a08e156-82cd-46ff-bd10-523eefc9e0ac" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClase" Name="MetaforaClase" DisplayName="Metafora Clase" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Clase" FillColor="Silver" InitialWidth="1.1" InitialHeight="2.5" OutlineThickness="0.05" FillGradientMode="None" Geometry="RoundedRectangle">
+    <GeometryShape Id="0a08e156-82cd-46ff-bd10-523eefc9e0ac" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClase" Name="MetaforaClase" DisplayName="Metafora Clase" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Clase" FillColor="Silver" InitialWidth="1.1" InitialHeight="2.6" OutlineThickness="0.05" FillGradientMode="None" Geometry="RoundedRectangle">
       <ShapeHasDecorators Position="InnerTopCenter" HorizontalOffset="0" VerticalOffset="0">
         <TextDecorator Name="NombreClase" DisplayName="Nombre Clase" DefaultText="NombreClase" />
       </ShapeHasDecorators>
     </GeometryShape>
     <GeometryShape Id="03c6469b-07df-4473-b39c-a19c093c243d" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAtributo" Name="MetaforaAtributo" DisplayName="Metafora Atributo" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Atributo" FillColor="RoyalBlue" InitialWidth="0.9" InitialHeight="0.5" OutlineThickness="0.05" FillGradientMode="None" Geometry="RoundedRectangle">
       <ShapeHasDecorators Position="Center" HorizontalOffset="0" VerticalOffset="0">
-        <TextDecorator Name="NombreAtributo" DisplayName="Nombre Atributo" DefaultText="NombreAtributo" />
+        <TextDecorator Name="NombreYTipo" DisplayName="Nombre Y Tipo" DefaultText="NombreYTipo" />
       </ShapeHasDecorators>
     </GeometryShape>
     <GeometryShape Id="ae52298d-b373-4225-ac0b-dab96c9b2fd5" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaOperacion" Name="MetaforaOperacion" DisplayName="Metafora Operacion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Operacion" FillColor="Red" InitialWidth="0.9" InitialHeight="0.5" OutlineThickness="0.05" FillGradientMode="None" Geometry="Rectangle">
       <ShapeHasDecorators Position="Center" HorizontalOffset="0" VerticalOffset="0">
-        <TextDecorator Name="NombreOperacion" DisplayName="Nombre Operacion" DefaultText="NombreOperacion" />
+        <TextDecorator Name="NombreYParametros" DisplayName="Nombre Y Parametros" DefaultText="NombreYParametros" />
       </ShapeHasDecorators>
     </GeometryShape>
-    <GeometryShape Id="478ab8ab-00de-4b3d-9f2d-01fac5da55f2" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClaseEnriquecida" Name="MetaforaClaseEnriquecida" DisplayName="Metafora Clase Enriquecida" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Clase Enriquecida" FillColor="LightGreen" InitialWidth="1.1" InitialHeight="2.5" FillGradientMode="None" Geometry="Rectangle">
+    <GeometryShape Id="478ab8ab-00de-4b3d-9f2d-01fac5da55f2" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClaseEnriquecida" Name="MetaforaClaseEnriquecida" DisplayName="Metafora Clase Enriquecida" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Clase Enriquecida" FillColor="LightGreen" InitialWidth="1.1" InitialHeight="2.6" FillGradientMode="None" Geometry="Rectangle">
       <ShapeHasDecorators Position="InnerTopCenter" HorizontalOffset="0" VerticalOffset="0">
         <TextDecorator Name="NombreClaseEnriquecida" DisplayName="Nombre Clase Enriquecida" DefaultText="NombreClaseEnriquecida" />
       </ShapeHasDecorators>
     </GeometryShape>
+    <GeometryShape Id="be0e0a2b-e3e1-4899-8046-523bedd106c1" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloClase" Name="MetaforaEstiloClase" DisplayName="Metafora Estilo Clase" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Estilo Clase" FillColor="PeachPuff" InitialWidth="0.9" InitialHeight="0.5" FillGradientMode="None" Geometry="RoundedRectangle">
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="ColorFondo" DisplayName="Color Fondo" DefaultText="ColorFondo" />
+      </ShapeHasDecorators>
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="ColorLetra" DisplayName="Color Letra" DefaultText="ColorLetra" />
+      </ShapeHasDecorators>
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="TipoLetra" DisplayName="Tipo Letra" DefaultText="TipoLetra" />
+      </ShapeHasDecorators>
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="Alineacion" DisplayName="Alineacion" DefaultText="Alineacion" />
+      </ShapeHasDecorators>
+    </GeometryShape>
+    <GeometryShape Id="4c1e439a-3c1a-47b5-92f3-e6885ed25559" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloAtributo" Name="MetaforaEstiloAtributo" DisplayName="Metafora Estilo Atributo" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Estilo Atributo" InitialHeight="1" Geometry="Rectangle">
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="TipoLetra" DisplayName="Tipo Letra" DefaultText="TipoLetra" />
+      </ShapeHasDecorators>
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="ColorLetra" DisplayName="Color Letra" DefaultText="ColorLetra" />
+      </ShapeHasDecorators>
+    </GeometryShape>
+    <GeometryShape Id="4a7c1b58-495b-49dd-8193-932a8e1654d8" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloOperacion" Name="MetaforaEstiloOperacion" DisplayName="Metafora Estilo Operacion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Estilo Operacion" InitialHeight="1" Geometry="Rectangle">
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="TipoLetra" DisplayName="Tipo Letra" DefaultText="TipoLetra" />
+      </ShapeHasDecorators>
+      <ShapeHasDecorators Position="InnerTopLeft" HorizontalOffset="0" VerticalOffset="0">
+        <TextDecorator Name="ColorLetra" DisplayName="Color Letra" DefaultText="ColorLetra" />
+      </ShapeHasDecorators>
+    </GeometryShape>
   </Shapes>
   <Connectors>
-    <Connector Id="72ef84ee-643a-4746-a295-40df746f139c" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia" Name="MetaforaHerencia" DisplayName="Metafora Herencia" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Herencia" TargetEndStyle="HollowArrow" />
-    <Connector Id="b8862e27-676b-4c1e-bef5-4c96376b0109" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAgregacion" Name="MetaforaAgregacion" DisplayName="Metafora Agregacion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Agregacion" TargetEndStyle="EmptyDiamond" />
-    <Connector Id="aeb8c1ea-76bc-4ee0-8ff5-ddc5332458da" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaComposicion" Name="MetaforaComposicion" DisplayName="Metafora Composicion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Composicion" TargetEndStyle="FilledDiamond" />
-    <Connector Id="4547ff50-c55a-410c-8c8b-a258645c9b18" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion" Name="MetaforaAsociacion" DisplayName="Metafora Asociacion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Asociacion" />
+    <Connector Id="72ef84ee-643a-4746-a295-40df746f139c" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia" Name="MetaforaHerencia" DisplayName="Metafora Herencia" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Herencia" TargetEndStyle="HollowArrow">
+      <ConnectorHasDecorators Position="SourceTop" OffsetFromShape="0" OffsetFromLine="0" isMoveable="true">
+        <TextDecorator Name="TipoHerencia" DisplayName="Tipo Herencia" DefaultText="TipoHerencia" />
+      </ConnectorHasDecorators>
+    </Connector>
+    <Connector Id="b8862e27-676b-4c1e-bef5-4c96376b0109" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAgregacion" Name="MetaforaAgregacion" DisplayName="Metafora Agregacion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Agregacion" TargetEndStyle="EmptyDiamond">
+      <ConnectorHasDecorators Position="SourceTop" OffsetFromShape="0" OffsetFromLine="0" isMoveable="true">
+        <TextDecorator Name="NombreRelacion" DisplayName="Nombre Relacion" DefaultText="Nombre" />
+      </ConnectorHasDecorators>
+      <ConnectorHasDecorators Position="SourceTop" OffsetFromShape="0" OffsetFromLine="0">
+        <TextDecorator Name="CardinalidadIzquierda" DisplayName="Cardinalidad Izquierda" DefaultText="CardinalidadIzquierda" />
+      </ConnectorHasDecorators>
+      <ConnectorHasDecorators Position="TargetBottom" OffsetFromShape="0" OffsetFromLine="0">
+        <TextDecorator Name="CardinalidadDerecha" DisplayName="Cardinalidad Derecha" DefaultText="CardinalidadDerecha" />
+      </ConnectorHasDecorators>
+    </Connector>
+    <Connector Id="aeb8c1ea-76bc-4ee0-8ff5-ddc5332458da" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaComposicion" Name="MetaforaComposicion" DisplayName="Metafora Composicion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Composicion" TargetEndStyle="FilledDiamond">
+      <ConnectorHasDecorators Position="SourceTop" OffsetFromShape="0" OffsetFromLine="0" isMoveable="true">
+        <TextDecorator Name="NombreRelacion" DisplayName="Nombre Relacion" DefaultText="Nombre" />
+      </ConnectorHasDecorators>
+      <ConnectorHasDecorators Position="SourceTop" OffsetFromShape="0" OffsetFromLine="0">
+        <TextDecorator Name="CardinalidadIzquierda" DisplayName="Cardinalidad Izquierda" DefaultText="CardinalidadIzquierda" />
+      </ConnectorHasDecorators>
+      <ConnectorHasDecorators Position="TargetBottom" OffsetFromShape="0" OffsetFromLine="0">
+        <TextDecorator Name="CardinalidadDerecha" DisplayName="Cardinalidad Derecha" DefaultText="CardinalidadDerecha" />
+      </ConnectorHasDecorators>
+    </Connector>
+    <Connector Id="4547ff50-c55a-410c-8c8b-a258645c9b18" Description="Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion" Name="MetaforaAsociacion" DisplayName="Metafora Asociacion" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS" FixedTooltipText="Metafora Asociacion">
+      <ConnectorHasDecorators Position="SourceTop" OffsetFromShape="0" OffsetFromLine="0" isMoveable="true">
+        <TextDecorator Name="NombreRelacion" DisplayName="Nombre Relacion" DefaultText="Nombre" />
+      </ConnectorHasDecorators>
+      <ConnectorHasDecorators Position="SourceTop" OffsetFromShape="0" OffsetFromLine="0">
+        <TextDecorator Name="CardinalidadIzquierda" DisplayName="Cardinalidad Izquierda" DefaultText="CardinalidadIzquierda" />
+      </ConnectorHasDecorators>
+      <ConnectorHasDecorators Position="TargetBottom" OffsetFromShape="0" OffsetFromLine="0">
+        <TextDecorator Name="CardinalidadDerecha" DisplayName="Cardinalidad Derecha" DefaultText="CardinalidadDerecha" />
+      </ConnectorHasDecorators>
+    </Connector>
   </Connectors>
   <XmlSerializationBehavior Name="DSPMPVSCDProyectoIPSSerializationBehavior" Namespace="UPM_IPS.DSPMPVSCDProyectoIPS">
     <ClassData>
@@ -436,6 +535,9 @@
           <XmlPropertyData XmlName="tipoDato">
             <DomainPropertyMoniker Name="Atributo/TipoDato" />
           </XmlPropertyData>
+          <XmlPropertyData XmlName="nombreYTipo" Representation="Ignore">
+            <DomainPropertyMoniker Name="Atributo/NombreYTipo" />
+          </XmlPropertyData>
         </ElementData>
       </XmlClassData>
       <XmlClassData TypeName="DSPMPVSCDProyectoIPSDiagram" MonikerAttributeName="" SerializeId="true" MonikerElementName="dSPMPVSCDProyectoIPSDiagramMoniker" ElementName="dSPMPVSCDProyectoIPSDiagram" MonikerTypeName="DSPMPVSCDProyectoIPSDiagramMoniker">
@@ -449,6 +551,9 @@
           </XmlPropertyData>
           <XmlPropertyData XmlName="conjuntoDatos">
             <DomainPropertyMoniker Name="Operacion/ConjuntoDatos" />
+          </XmlPropertyData>
+          <XmlPropertyData XmlName="nombreYParametros">
+            <DomainPropertyMoniker Name="Operacion/NombreYParametros" />
           </XmlPropertyData>
         </ElementData>
       </XmlClassData>
@@ -484,8 +589,8 @@
           <XmlPropertyData XmlName="tipoLetra">
             <DomainPropertyMoniker Name="EstiloOperacion/TipoLetra" />
           </XmlPropertyData>
-          <XmlPropertyData XmlName="tipoColor">
-            <DomainPropertyMoniker Name="EstiloOperacion/TipoColor" />
+          <XmlPropertyData XmlName="colorLetra">
+            <DomainPropertyMoniker Name="EstiloOperacion/ColorLetra" />
           </XmlPropertyData>
         </ElementData>
       </XmlClassData>
@@ -546,9 +651,6 @@
           <XmlPropertyData XmlName="colorLetra">
             <DomainPropertyMoniker Name="EstiloAtributo/ColorLetra" />
           </XmlPropertyData>
-          <XmlPropertyData XmlName="formatoBooleano">
-            <DomainPropertyMoniker Name="EstiloAtributo/FormatoBooleano" />
-          </XmlPropertyData>
         </ElementData>
       </XmlClassData>
       <XmlClassData TypeName="ClaseEnriquecidaHasEstiloClases" MonikerAttributeName="" SerializeId="true" MonikerElementName="claseEnriquecidaHasEstiloClasesMoniker" ElementName="claseEnriquecidaHasEstiloClases" MonikerTypeName="ClaseEnriquecidaHasEstiloClasesMoniker">
@@ -578,6 +680,12 @@
           <XmlPropertyData XmlName="nombre">
             <DomainPropertyMoniker Name="ClaseAgregaClase/Nombre" />
           </XmlPropertyData>
+          <XmlPropertyData XmlName="cardinalidadIzquierda">
+            <DomainPropertyMoniker Name="ClaseAgregaClase/CardinalidadIzquierda" />
+          </XmlPropertyData>
+          <XmlPropertyData XmlName="cardinalidadDerecha">
+            <DomainPropertyMoniker Name="ClaseAgregaClase/CardinalidadDerecha" />
+          </XmlPropertyData>
         </ElementData>
       </XmlClassData>
       <XmlClassData TypeName="ClaseComponeClase" MonikerAttributeName="" SerializeId="true" MonikerElementName="claseComponeClaseMoniker" ElementName="claseComponeClase" MonikerTypeName="ClaseComponeClaseMoniker">
@@ -586,6 +694,12 @@
           <XmlPropertyData XmlName="nombre">
             <DomainPropertyMoniker Name="ClaseComponeClase/Nombre" />
           </XmlPropertyData>
+          <XmlPropertyData XmlName="cardinalidadIzquierda">
+            <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadIzquierda" />
+          </XmlPropertyData>
+          <XmlPropertyData XmlName="cardinalidadDerecha">
+            <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadDerecha" />
+          </XmlPropertyData>
         </ElementData>
       </XmlClassData>
       <XmlClassData TypeName="ClaseAsociaClase" MonikerAttributeName="" SerializeId="true" MonikerElementName="claseAsociaClaseMoniker" ElementName="claseAsociaClase" MonikerTypeName="ClaseAsociaClaseMoniker">
@@ -593,6 +707,12 @@
         <ElementData>
           <XmlPropertyData XmlName="nombre">
             <DomainPropertyMoniker Name="ClaseAsociaClase/Nombre" />
+          </XmlPropertyData>
+          <XmlPropertyData XmlName="cardinalidadIzquierda">
+            <DomainPropertyMoniker Name="ClaseAsociaClase/CardinalidadIzquierda" />
+          </XmlPropertyData>
+          <XmlPropertyData XmlName="cardinalidadDerecha">
+            <DomainPropertyMoniker Name="ClaseAsociaClase/CardinalidadDerecha" />
           </XmlPropertyData>
         </ElementData>
       </XmlClassData>
@@ -607,6 +727,15 @@
       </XmlClassData>
       <XmlClassData TypeName="MetaforaAsociacion" MonikerAttributeName="" SerializeId="true" MonikerElementName="metaforaAsociacionMoniker" ElementName="metaforaAsociacion" MonikerTypeName="MetaforaAsociacionMoniker">
         <ConnectorMoniker Name="MetaforaAsociacion" />
+      </XmlClassData>
+      <XmlClassData TypeName="MetaforaEstiloClase" MonikerAttributeName="" SerializeId="true" MonikerElementName="metaforaEstiloClaseMoniker" ElementName="metaforaEstiloClase" MonikerTypeName="MetaforaEstiloClaseMoniker">
+        <GeometryShapeMoniker Name="MetaforaEstiloClase" />
+      </XmlClassData>
+      <XmlClassData TypeName="MetaforaEstiloAtributo" MonikerAttributeName="" SerializeId="true" MonikerElementName="metaforaEstiloAtributoMoniker" ElementName="metaforaEstiloAtributo" MonikerTypeName="MetaforaEstiloAtributoMoniker">
+        <GeometryShapeMoniker Name="MetaforaEstiloAtributo" />
+      </XmlClassData>
+      <XmlClassData TypeName="MetaforaEstiloOperacion" MonikerAttributeName="" SerializeId="true" MonikerElementName="metaforaEstiloOperacionMoniker" ElementName="metaforaEstiloOperacion" MonikerTypeName="MetaforaEstiloOperacionMoniker">
+        <GeometryShapeMoniker Name="MetaforaEstiloOperacion" />
       </XmlClassData>
     </ClassData>
   </XmlSerializationBehavior>
@@ -709,36 +838,6 @@
         </DecoratorMap>
         <GeometryShapeMoniker Name="MetaforaClase" />
       </ShapeMap>
-      <ShapeMap HasCustomParentElement="true">
-        <DomainClassMoniker Name="Atributo" />
-        <ParentElementPath>
-          <DomainPath />
-        </ParentElementPath>
-        <DecoratorMap>
-          <TextDecoratorMoniker Name="MetaforaAtributo/NombreAtributo" />
-          <PropertyDisplayed>
-            <PropertyPath>
-              <DomainPropertyMoniker Name="Atributo/Nombre" />
-            </PropertyPath>
-          </PropertyDisplayed>
-        </DecoratorMap>
-        <GeometryShapeMoniker Name="MetaforaAtributo" />
-      </ShapeMap>
-      <ShapeMap HasCustomParentElement="true">
-        <DomainClassMoniker Name="Operacion" />
-        <ParentElementPath>
-          <DomainPath />
-        </ParentElementPath>
-        <DecoratorMap>
-          <TextDecoratorMoniker Name="MetaforaOperacion/NombreOperacion" />
-          <PropertyDisplayed>
-            <PropertyPath>
-              <DomainPropertyMoniker Name="Operacion/Nombre" />
-            </PropertyPath>
-          </PropertyDisplayed>
-        </DecoratorMap>
-        <GeometryShapeMoniker Name="MetaforaOperacion" />
-      </ShapeMap>
       <ShapeMap>
         <DomainClassMoniker Name="ClaseEnriquecida" />
         <ParentElementPath>
@@ -754,23 +853,290 @@
         </DecoratorMap>
         <GeometryShapeMoniker Name="MetaforaClaseEnriquecida" />
       </ShapeMap>
+      <ShapeMap>
+        <DomainClassMoniker Name="EstiloClase" />
+        <ParentElementPath>
+          <DomainPath>ClaseEnriquecidaHasEstiloClases.ClaseEnriquecida/!ClaseEnriquecida/TapizDiagramaClasesHasClases.TapizDiagramaClases/!TapizDiagramaClases</DomainPath>
+        </ParentElementPath>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloClase/TipoLetra" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloClase/TipoLetra" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloClase/ColorLetra" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloClase/ColorLetra" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloClase/ColorFondo" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloClase/ColorFondo" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloClase/Alineacion" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloClase/Alineacion" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <GeometryShapeMoniker Name="MetaforaEstiloClase" />
+      </ShapeMap>
+      <ShapeMap>
+        <DomainClassMoniker Name="EstiloOperacion" />
+        <ParentElementPath>
+          <DomainPath>ClaseEnriquecidaHasEstiloOperacioned.ClaseEnriquecida/!ClaseEnriquecida/TapizDiagramaClasesHasClases.TapizDiagramaClases/!TapizDiagramaClases</DomainPath>
+        </ParentElementPath>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloAtributo/TipoLetra" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloOperacion/TipoLetra" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloAtributo/ColorLetra" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloOperacion/ColorLetra" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <GeometryShapeMoniker Name="MetaforaEstiloOperacion" />
+      </ShapeMap>
+      <ShapeMap>
+        <DomainClassMoniker Name="EstiloAtributo" />
+        <ParentElementPath>
+          <DomainPath>ClaseEnriquecidaHasEstiloAtributo.ClaseEnriquecida/!ClaseEnriquecida/TapizDiagramaClasesHasClases.TapizDiagramaClases/!TapizDiagramaClases</DomainPath>
+        </ParentElementPath>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloAtributo/TipoLetra" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloAtributo/TipoLetra" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaEstiloAtributo/ColorLetra" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="EstiloAtributo/ColorLetra" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <GeometryShapeMoniker Name="MetaforaEstiloAtributo" />
+      </ShapeMap>
+      <ShapeMap>
+        <DomainClassMoniker Name="Atributo" />
+        <ParentElementPath>
+          <DomainPath>ClaseHasAtributo.Clase/!Clase/TapizDiagramaClasesHasClases.TapizDiagramaClases/!TapizDiagramaClases</DomainPath>
+        </ParentElementPath>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAtributo/NombreYTipo" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="Atributo/NombreYTipo" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <GeometryShapeMoniker Name="MetaforaAtributo" />
+      </ShapeMap>
+      <ShapeMap>
+        <DomainClassMoniker Name="Operacion" />
+        <ParentElementPath>
+          <DomainPath>ClaseHasOperacion.Clase/!Clase/TapizDiagramaClasesHasClases.TapizDiagramaClases/!TapizDiagramaClases</DomainPath>
+        </ParentElementPath>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaOperacion/NombreYParametros" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="Operacion/NombreYParametros" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <GeometryShapeMoniker Name="MetaforaOperacion" />
+      </ShapeMap>
     </ShapeMaps>
     <ConnectorMaps>
       <ConnectorMap>
-        <ConnectorMoniker Name="MetaforaHerencia" />
-        <DomainRelationshipMoniker Name="ClaseHeredaClase" />
-      </ConnectorMap>
-      <ConnectorMap>
         <ConnectorMoniker Name="MetaforaAsociacion" />
         <DomainRelationshipMoniker Name="ClaseAsociaClase" />
-      </ConnectorMap>
-      <ConnectorMap>
-        <ConnectorMoniker Name="MetaforaAgregacion" />
-        <DomainRelationshipMoniker Name="ClaseAgregaClase" />
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAsociacion/NombreRelacion" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAsociaClase/Nombre" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAsociacion/CardinalidadIzquierda" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAsociaClase/CardinalidadIzquierda" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAsociacion/CardinalidadDerecha" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAsociaClase/CardinalidadDerecha" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
       </ConnectorMap>
       <ConnectorMap>
         <ConnectorMoniker Name="MetaforaComposicion" />
         <DomainRelationshipMoniker Name="ClaseComponeClase" />
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaComposicion/NombreRelacion" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/Nombre" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaComposicion/CardinalidadIzquierda" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadIzquierda" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaComposicion/CardinalidadDerecha" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadDerecha" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAsociacion/NombreRelacion" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/Nombre" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAsociacion/CardinalidadIzquierda" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadIzquierda" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAsociacion/CardinalidadDerecha" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadDerecha" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAgregacion/NombreRelacion" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/Nombre" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAgregacion/CardinalidadIzquierda" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadIzquierda" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAgregacion/CardinalidadDerecha" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseComponeClase/CardinalidadDerecha" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+      </ConnectorMap>
+      <ConnectorMap>
+        <ConnectorMoniker Name="MetaforaAgregacion" />
+        <DomainRelationshipMoniker Name="ClaseAgregaClase" />
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAgregacion/NombreRelacion" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAgregaClase/Nombre" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAgregacion/CardinalidadIzquierda" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAgregaClase/CardinalidadIzquierda" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaAgregacion/CardinalidadDerecha" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAgregaClase/CardinalidadDerecha" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaComposicion/NombreRelacion" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAgregaClase/Nombre" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaComposicion/CardinalidadIzquierda" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAgregaClase/CardinalidadIzquierda" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaComposicion/CardinalidadDerecha" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseAgregaClase/CardinalidadDerecha" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
+      </ConnectorMap>
+      <ConnectorMap>
+        <ConnectorMoniker Name="MetaforaHerencia" />
+        <DomainRelationshipMoniker Name="ClaseHeredaClase" />
+        <DecoratorMap>
+          <TextDecoratorMoniker Name="MetaforaHerencia/TipoHerencia" />
+          <PropertyDisplayed>
+            <PropertyPath>
+              <DomainPropertyMoniker Name="ClaseHeredaClase/TipoHerencia" />
+            </PropertyPath>
+          </PropertyDisplayed>
+        </DecoratorMap>
       </ConnectorMap>
     </ConnectorMaps>
   </Diagram>

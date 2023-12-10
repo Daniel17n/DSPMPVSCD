@@ -165,6 +165,14 @@
     <value>Tipo Dato</value>
     <comment>DisplayName for DomainProperty &apos;TipoDato&apos; on DomainClass &apos;Atributo&apos;</comment>
   </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo/NombreYTipo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Atributo.Nombre YTipo</value>
+    <comment>Description for DomainProperty &apos;NombreYTipo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo/NombreYTipo.DisplayName" xml:space="preserve">
+    <value>Nombre YTipo</value>
+    <comment>DisplayName for DomainProperty &apos;NombreYTipo&apos; on DomainClass &apos;Atributo&apos;</comment>
+  </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Operacion</value>
     <comment>Description for DomainClass &apos;Operacion&apos;</comment>
@@ -188,6 +196,14 @@
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion/ConjuntoDatos.DisplayName" xml:space="preserve">
     <value>Conjunto Datos</value>
     <comment>DisplayName for DomainProperty &apos;ConjuntoDatos&apos; on DomainClass &apos;Operacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion/NombreYParametros.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Operacion.Nombre YParametros</value>
+    <comment>Description for DomainProperty &apos;NombreYParametros&apos; on DomainClass &apos;Operacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion/NombreYParametros.DisplayName" xml:space="preserve">
+    <value>Nombre YParametros</value>
+    <comment>DisplayName for DomainProperty &apos;NombreYParametros&apos; on DomainClass &apos;Operacion&apos;</comment>
   </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Clase.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Clase</value>
@@ -221,13 +237,13 @@
     <value>Tipo Letra</value>
     <comment>DisplayName for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/TipoColor.Description" xml:space="preserve">
-    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.Tipo Color</value>
-    <comment>Description for DomainProperty &apos;TipoColor&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/ColorLetra.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.Color Letra</value>
+    <comment>Description for DomainProperty &apos;ColorLetra&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/TipoColor.DisplayName" xml:space="preserve">
-    <value>Tipo Color</value>
-    <comment>DisplayName for DomainProperty &apos;TipoColor&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/ColorLetra.DisplayName" xml:space="preserve">
+    <value>Color Letra</value>
+    <comment>DisplayName for DomainProperty &apos;ColorLetra&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecida.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecida</value>
@@ -300,14 +316,6 @@
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/ColorLetra.DisplayName" xml:space="preserve">
     <value>Color Letra</value>
     <comment>DisplayName for DomainProperty &apos;ColorLetra&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
-  </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/FormatoBooleano.Description" xml:space="preserve">
-    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo.Formato Booleano</value>
-    <comment>Description for DomainProperty &apos;FormatoBooleano&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
-  </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/FormatoBooleano.DisplayName" xml:space="preserve">
-    <value>Formato Booleano</value>
-    <comment>DisplayName for DomainProperty &apos;FormatoBooleano&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
   </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases</value>
@@ -557,6 +565,22 @@
     <value>Nombre</value>
     <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseAgregaClase&apos;</comment>
   </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadIzquierda.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Cardinalidad Izquierda</value>
+    <comment>Description for DomainProperty &apos;CardinalidadIzquierda&apos; on DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadIzquierda.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Izquierda</value>
+    <comment>DisplayName for DomainProperty &apos;CardinalidadIzquierda&apos; on DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadDerecha.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Cardinalidad Derecha</value>
+    <comment>Description for DomainProperty &apos;CardinalidadDerecha&apos; on DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadDerecha.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Derecha</value>
+    <comment>DisplayName for DomainProperty &apos;CardinalidadDerecha&apos; on DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/SourceClase.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.SourceClase</value>
     <comment>Description for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseAgregaClase&apos;</comment>
@@ -597,6 +621,22 @@
     <value>Nombre</value>
     <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseComponeClase&apos;</comment>
   </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadIzquierda.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Cardinalidad Izquierda</value>
+    <comment>Description for DomainProperty &apos;CardinalidadIzquierda&apos; on DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadIzquierda.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Izquierda</value>
+    <comment>DisplayName for DomainProperty &apos;CardinalidadIzquierda&apos; on DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadDerecha.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Cardinalidad Derecha</value>
+    <comment>Description for DomainProperty &apos;CardinalidadDerecha&apos; on DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadDerecha.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Derecha</value>
+    <comment>DisplayName for DomainProperty &apos;CardinalidadDerecha&apos; on DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/SourceClase.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.SourceClase</value>
     <comment>Description for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseComponeClase&apos;</comment>
@@ -636,6 +676,22 @@
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/Nombre.DisplayName" xml:space="preserve">
     <value>Nombre</value>
     <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadIzquierda.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Cardinalidad Izquierda</value>
+    <comment>Description for DomainProperty &apos;CardinalidadIzquierda&apos; on DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadIzquierda.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Izquierda</value>
+    <comment>DisplayName for DomainProperty &apos;CardinalidadIzquierda&apos; on DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadDerecha.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Cardinalidad Derecha</value>
+    <comment>Description for DomainProperty &apos;CardinalidadDerecha&apos; on DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadDerecha.DisplayName" xml:space="preserve">
+    <value>Cardinalidad Derecha</value>
+    <comment>DisplayName for DomainProperty &apos;CardinalidadDerecha&apos; on DomainClass &apos;ClaseAsociaClase&apos;</comment>
   </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/SourceClase.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.SourceClase</value>
@@ -737,8 +793,8 @@
     <value>Metafora Atributo</value>
     <comment>DisplayName for DomainClass &apos;MetaforaAtributo&apos;</comment>
   </data>
-  <data name="MetaforaAtributoNombreAtributoDefaultText" xml:space="preserve">
-    <value>NombreAtributo</value>
+  <data name="MetaforaAtributoNombreYTipoDefaultText" xml:space="preserve">
+    <value>NombreYTipo</value>
     <comment>Text decorator default text</comment>
   </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaOperacion.Description" xml:space="preserve">
@@ -749,8 +805,8 @@
     <value>Metafora Operacion</value>
     <comment>DisplayName for DomainClass &apos;MetaforaOperacion&apos;</comment>
   </data>
-  <data name="MetaforaOperacionNombreOperacionDefaultText" xml:space="preserve">
-    <value>NombreOperacion</value>
+  <data name="MetaforaOperacionNombreYParametrosDefaultText" xml:space="preserve">
+    <value>NombreYParametros</value>
     <comment>Text decorator default text</comment>
   </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClaseEnriquecida.Description" xml:space="preserve">
@@ -765,6 +821,62 @@
     <value>NombreClaseEnriquecida</value>
     <comment>Text decorator default text</comment>
   </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloClase</value>
+    <comment>Description for DomainClass &apos;MetaforaEstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloClase.DisplayName" xml:space="preserve">
+    <value>Metafora Estilo Clase</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEstiloClase&apos;</comment>
+  </data>
+  <data name="MetaforaEstiloClaseColorFondoDefaultText" xml:space="preserve">
+    <value>ColorFondo</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEstiloClaseColorLetraDefaultText" xml:space="preserve">
+    <value>ColorLetra</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEstiloClaseTipoLetraDefaultText" xml:space="preserve">
+    <value>TipoLetra</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEstiloClaseAlineacionDefaultText" xml:space="preserve">
+    <value>Alineacion</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloAtributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloAtributo</value>
+    <comment>Description for DomainClass &apos;MetaforaEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloAtributo.DisplayName" xml:space="preserve">
+    <value>Metafora Estilo Atributo</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEstiloAtributo&apos;</comment>
+  </data>
+  <data name="MetaforaEstiloAtributoTipoLetraDefaultText" xml:space="preserve">
+    <value>TipoLetra</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEstiloAtributoColorLetraDefaultText" xml:space="preserve">
+    <value>ColorLetra</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloOperacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloOperacion</value>
+    <comment>Description for DomainClass &apos;MetaforaEstiloOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaEstiloOperacion.DisplayName" xml:space="preserve">
+    <value>Metafora Estilo Operacion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaEstiloOperacion&apos;</comment>
+  </data>
+  <data name="MetaforaEstiloOperacionTipoLetraDefaultText" xml:space="preserve">
+    <value>TipoLetra</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaEstiloOperacionColorLetraDefaultText" xml:space="preserve">
+    <value>ColorLetra</value>
+    <comment>Text decorator default text</comment>
+  </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia</value>
     <comment>Description for DomainClass &apos;MetaforaHerencia&apos;</comment>
@@ -772,6 +884,10 @@
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia.DisplayName" xml:space="preserve">
     <value>Metafora Herencia</value>
     <comment>DisplayName for DomainClass &apos;MetaforaHerencia&apos;</comment>
+  </data>
+  <data name="MetaforaHerenciaTipoHerenciaDefaultText" xml:space="preserve">
+    <value>TipoHerencia</value>
+    <comment>Text decorator default text</comment>
   </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAgregacion.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAgregacion</value>
@@ -781,6 +897,18 @@
     <value>Metafora Agregacion</value>
     <comment>DisplayName for DomainClass &apos;MetaforaAgregacion&apos;</comment>
   </data>
+  <data name="MetaforaAgregacionNombreRelacionDefaultText" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAgregacionCardinalidadIzquierdaDefaultText" xml:space="preserve">
+    <value>CardinalidadIzquierda</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAgregacionCardinalidadDerechaDefaultText" xml:space="preserve">
+    <value>CardinalidadDerecha</value>
+    <comment>Text decorator default text</comment>
+  </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaComposicion.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaComposicion</value>
     <comment>Description for DomainClass &apos;MetaforaComposicion&apos;</comment>
@@ -789,6 +917,18 @@
     <value>Metafora Composicion</value>
     <comment>DisplayName for DomainClass &apos;MetaforaComposicion&apos;</comment>
   </data>
+  <data name="MetaforaComposicionNombreRelacionDefaultText" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaComposicionCardinalidadIzquierdaDefaultText" xml:space="preserve">
+    <value>CardinalidadIzquierda</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaComposicionCardinalidadDerechaDefaultText" xml:space="preserve">
+    <value>CardinalidadDerecha</value>
+    <comment>Text decorator default text</comment>
+  </data>
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion.Description" xml:space="preserve">
     <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion</value>
     <comment>Description for DomainClass &apos;MetaforaAsociacion&apos;</comment>
@@ -796,6 +936,18 @@
   <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion.DisplayName" xml:space="preserve">
     <value>Metafora Asociacion</value>
     <comment>DisplayName for DomainClass &apos;MetaforaAsociacion&apos;</comment>
+  </data>
+  <data name="MetaforaAsociacionNombreRelacionDefaultText" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAsociacionCardinalidadIzquierdaDefaultText" xml:space="preserve">
+    <value>CardinalidadIzquierda</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="MetaforaAsociacionCardinalidadDerechaDefaultText" xml:space="preserve">
+    <value>CardinalidadDerecha</value>
+    <comment>Text decorator default text</comment>
   </data>
   <data name="FormatList" xml:space="preserve">
     <value>DSPMPVSCDProyectoIPS (*.DSPMPVSCD_DSLProyectoIPS)|*.DSPMPVSCD_DSLProyectoIPS</value>

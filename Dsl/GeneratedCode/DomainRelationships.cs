@@ -834,13 +834,23 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 		#endregion
 		#region Static methods to access ClasePadre of a Clase
 		/// <summary>
-		/// Gets a list of ClasePadre.
+		/// Gets ClasePadre.
 		/// </summary>
 		[global::System.Diagnostics.DebuggerStepThrough]
 		[global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1011")]
-		public static DslModeling::LinkedElementCollection<Clase> GetClasePadre(Clase element)
+		public static Clase GetClasePadre(Clase element)
 		{
-			return GetRoleCollection<DslModeling::LinkedElementCollection<Clase>, Clase>(element, TargetClaseDomainRoleId);
+			return DslModeling::DomainRoleInfo.GetLinkedElement(element, TargetClaseDomainRoleId) as Clase;
+		}
+		
+		/// <summary>
+		/// Sets ClasePadre.
+		/// </summary>
+		[global::System.Diagnostics.DebuggerStepThrough]
+		[global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1011")]
+		public static void SetClasePadre(Clase element, Clase newSourceClase)
+		{
+			DslModeling::DomainRoleInfo.SetLinkedElement(element, TargetClaseDomainRoleId, newSourceClase);
 		}
 		#endregion
 		#region TargetClase domain role code
@@ -856,7 +866,7 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 		/// </summary>
 		[DslDesign::DisplayNameResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TargetClase.DisplayName", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
 		[DslDesign::DescriptionResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TargetClase.Description", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
-		[DslModeling::DomainRole(DslModeling::DomainRoleOrder.Target, PropertyName = "ClasePadre", PropertyDisplayNameKey="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TargetClase.PropertyDisplayName",  PropagatesCopy = DslModeling::PropagatesCopyOption.DoNotPropagateCopy, Multiplicity = DslModeling::Multiplicity.ZeroMany)]
+		[DslModeling::DomainRole(DslModeling::DomainRoleOrder.Target, PropertyName = "ClasePadre", PropertyDisplayNameKey="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TargetClase.PropertyDisplayName",  PropagatesCopy = DslModeling::PropagatesCopyOption.DoNotPropagateCopy, Multiplicity = DslModeling::Multiplicity.ZeroOne)]
 		[DslModeling::DomainObjectId("34be280c-9133-4959-aa39-8aba082dd7ab")]
 		public virtual Clase TargetClase
 		{
@@ -985,13 +995,22 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 		#endregion
 		#region TargetClase link accessor
 		/// <summary>
-		/// Get the list of ClaseHeredaClase links to a Clase.
+		/// Get the ClaseHeredaClase link to a Clase.
 		/// </summary>
 		[global::System.Diagnostics.DebuggerStepThrough]
 		[global::System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1011")]
-		public static global::System.Collections.ObjectModel.ReadOnlyCollection<global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase> GetLinksToClasePadre ( global::UPM_IPS.DSPMPVSCDProyectoIPS.Clase targetClaseInstance )
+		public static global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase GetLinkToClasePadre (global::UPM_IPS.DSPMPVSCDProyectoIPS.Clase targetClaseInstance)
 		{
-			return DslModeling::DomainRoleInfo.GetElementLinks<global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase>(targetClaseInstance, global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.TargetClaseDomainRoleId);
+			global::System.Collections.Generic.IList<global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase> links = DslModeling::DomainRoleInfo.GetElementLinks<global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase>(targetClaseInstance, global::UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.TargetClaseDomainRoleId);
+			global::System.Diagnostics.Debug.Assert(links.Count <= 1, "Multiplicity of TargetClase not obeyed.");
+			if ( links.Count == 0 )
+			{
+				return null;
+			}
+			else
+			{
+				return links[0];
+			}
 		}
 		#endregion
 		#region ClaseHeredaClase instance accessors
@@ -2003,6 +2022,182 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 		}
 		
 		#endregion
+		#region CardinalidadIzquierda domain property code
+		
+		/// <summary>
+		/// CardinalidadIzquierda domain property Id.
+		/// </summary>
+		public static readonly global::System.Guid CardinalidadIzquierdaDomainPropertyId = new global::System.Guid(0x3ed00840, 0x3814, 0x496d, 0xa5, 0x71, 0x57, 0x72, 0x71, 0xb3, 0x18, 0xc3);
+		
+		/// <summary>
+		/// Storage for CardinalidadIzquierda
+		/// </summary>
+		private global::System.String cardinalidadIzquierdaPropertyStorage = string.Empty;
+		
+		/// <summary>
+		/// Gets or sets the value of CardinalidadIzquierda domain property.
+		/// Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Cardinalidad
+		/// Izquierda
+		/// </summary>
+		[DslDesign::DisplayNameResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadIzquierda.DisplayName", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslDesign::DescriptionResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadIzquierda.Description", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslModeling::DomainObjectId("3ed00840-3814-496d-a571-577271b318c3")]
+		public global::System.String CardinalidadIzquierda
+		{
+			[global::System.Diagnostics.DebuggerStepThrough]
+			get
+			{
+				return cardinalidadIzquierdaPropertyStorage;
+			}
+			[global::System.Diagnostics.DebuggerStepThrough]
+			set
+			{
+				CardinalidadIzquierdaPropertyHandler.Instance.SetValue(this, value);
+			}
+		}
+		/// <summary>
+		/// Value handler for the ClaseAgregaClase.CardinalidadIzquierda domain property.
+		/// </summary>
+		internal sealed partial class CardinalidadIzquierdaPropertyHandler : DslModeling::DomainPropertyValueHandler<ClaseAgregaClase, global::System.String>
+		{
+			private CardinalidadIzquierdaPropertyHandler() { }
+		
+			/// <summary>
+			/// Gets the singleton instance of the ClaseAgregaClase.CardinalidadIzquierda domain property value handler.
+			/// </summary>
+			public static readonly CardinalidadIzquierdaPropertyHandler Instance = new CardinalidadIzquierdaPropertyHandler();
+		
+			/// <summary>
+			/// Gets the Id of the ClaseAgregaClase.CardinalidadIzquierda domain property.
+			/// </summary>
+			public sealed override global::System.Guid DomainPropertyId
+			{
+				[global::System.Diagnostics.DebuggerStepThrough]
+				get
+				{
+					return CardinalidadIzquierdaDomainPropertyId;
+				}
+			}
+			
+			/// <summary>
+			/// Gets a strongly-typed value of the property on specified element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <returns>Property value.</returns>
+			public override sealed global::System.String GetValue(ClaseAgregaClase element)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+				return element.cardinalidadIzquierdaPropertyStorage;
+			}
+		
+			/// <summary>
+			/// Sets property value on an element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <param name="newValue">New property value.</param>
+			public override sealed void SetValue(ClaseAgregaClase element, global::System.String newValue)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+		
+				global::System.String oldValue = GetValue(element);
+				if (newValue != oldValue)
+				{
+					ValueChanging(element, oldValue, newValue);
+					element.cardinalidadIzquierdaPropertyStorage = newValue;
+					ValueChanged(element, oldValue, newValue);
+				}
+			}
+		}
+		
+		#endregion
+		#region CardinalidadDerecha domain property code
+		
+		/// <summary>
+		/// CardinalidadDerecha domain property Id.
+		/// </summary>
+		public static readonly global::System.Guid CardinalidadDerechaDomainPropertyId = new global::System.Guid(0xb42e2e35, 0x4278, 0x44b7, 0x80, 0x6c, 0xc6, 0x94, 0x7c, 0x4b, 0x8a, 0x2a);
+		
+		/// <summary>
+		/// Storage for CardinalidadDerecha
+		/// </summary>
+		private global::System.String cardinalidadDerechaPropertyStorage = string.Empty;
+		
+		/// <summary>
+		/// Gets or sets the value of CardinalidadDerecha domain property.
+		/// Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Cardinalidad
+		/// Derecha
+		/// </summary>
+		[DslDesign::DisplayNameResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadDerecha.DisplayName", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslDesign::DescriptionResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/CardinalidadDerecha.Description", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslModeling::DomainObjectId("b42e2e35-4278-44b7-806c-c6947c4b8a2a")]
+		public global::System.String CardinalidadDerecha
+		{
+			[global::System.Diagnostics.DebuggerStepThrough]
+			get
+			{
+				return cardinalidadDerechaPropertyStorage;
+			}
+			[global::System.Diagnostics.DebuggerStepThrough]
+			set
+			{
+				CardinalidadDerechaPropertyHandler.Instance.SetValue(this, value);
+			}
+		}
+		/// <summary>
+		/// Value handler for the ClaseAgregaClase.CardinalidadDerecha domain property.
+		/// </summary>
+		internal sealed partial class CardinalidadDerechaPropertyHandler : DslModeling::DomainPropertyValueHandler<ClaseAgregaClase, global::System.String>
+		{
+			private CardinalidadDerechaPropertyHandler() { }
+		
+			/// <summary>
+			/// Gets the singleton instance of the ClaseAgregaClase.CardinalidadDerecha domain property value handler.
+			/// </summary>
+			public static readonly CardinalidadDerechaPropertyHandler Instance = new CardinalidadDerechaPropertyHandler();
+		
+			/// <summary>
+			/// Gets the Id of the ClaseAgregaClase.CardinalidadDerecha domain property.
+			/// </summary>
+			public sealed override global::System.Guid DomainPropertyId
+			{
+				[global::System.Diagnostics.DebuggerStepThrough]
+				get
+				{
+					return CardinalidadDerechaDomainPropertyId;
+				}
+			}
+			
+			/// <summary>
+			/// Gets a strongly-typed value of the property on specified element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <returns>Property value.</returns>
+			public override sealed global::System.String GetValue(ClaseAgregaClase element)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+				return element.cardinalidadDerechaPropertyStorage;
+			}
+		
+			/// <summary>
+			/// Sets property value on an element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <param name="newValue">New property value.</param>
+			public override sealed void SetValue(ClaseAgregaClase element, global::System.String newValue)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+		
+				global::System.String oldValue = GetValue(element);
+				if (newValue != oldValue)
+				{
+					ValueChanging(element, oldValue, newValue);
+					element.cardinalidadDerechaPropertyStorage = newValue;
+					ValueChanged(element, oldValue, newValue);
+				}
+			}
+		}
+		
+		#endregion
 		#region SourceClase link accessor
 		/// <summary>
 		/// Get the list of ClaseAgregaClase links to a Clase.
@@ -2310,6 +2505,182 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 		}
 		
 		#endregion
+		#region CardinalidadIzquierda domain property code
+		
+		/// <summary>
+		/// CardinalidadIzquierda domain property Id.
+		/// </summary>
+		public static readonly global::System.Guid CardinalidadIzquierdaDomainPropertyId = new global::System.Guid(0xf4ac1df6, 0x8781, 0x486b, 0xb5, 0x37, 0xde, 0xfd, 0xba, 0x42, 0x94, 0xbf);
+		
+		/// <summary>
+		/// Storage for CardinalidadIzquierda
+		/// </summary>
+		private global::System.String cardinalidadIzquierdaPropertyStorage = string.Empty;
+		
+		/// <summary>
+		/// Gets or sets the value of CardinalidadIzquierda domain property.
+		/// Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Cardinalidad
+		/// Izquierda
+		/// </summary>
+		[DslDesign::DisplayNameResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadIzquierda.DisplayName", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslDesign::DescriptionResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadIzquierda.Description", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslModeling::DomainObjectId("f4ac1df6-8781-486b-b537-defdba4294bf")]
+		public global::System.String CardinalidadIzquierda
+		{
+			[global::System.Diagnostics.DebuggerStepThrough]
+			get
+			{
+				return cardinalidadIzquierdaPropertyStorage;
+			}
+			[global::System.Diagnostics.DebuggerStepThrough]
+			set
+			{
+				CardinalidadIzquierdaPropertyHandler.Instance.SetValue(this, value);
+			}
+		}
+		/// <summary>
+		/// Value handler for the ClaseComponeClase.CardinalidadIzquierda domain property.
+		/// </summary>
+		internal sealed partial class CardinalidadIzquierdaPropertyHandler : DslModeling::DomainPropertyValueHandler<ClaseComponeClase, global::System.String>
+		{
+			private CardinalidadIzquierdaPropertyHandler() { }
+		
+			/// <summary>
+			/// Gets the singleton instance of the ClaseComponeClase.CardinalidadIzquierda domain property value handler.
+			/// </summary>
+			public static readonly CardinalidadIzquierdaPropertyHandler Instance = new CardinalidadIzquierdaPropertyHandler();
+		
+			/// <summary>
+			/// Gets the Id of the ClaseComponeClase.CardinalidadIzquierda domain property.
+			/// </summary>
+			public sealed override global::System.Guid DomainPropertyId
+			{
+				[global::System.Diagnostics.DebuggerStepThrough]
+				get
+				{
+					return CardinalidadIzquierdaDomainPropertyId;
+				}
+			}
+			
+			/// <summary>
+			/// Gets a strongly-typed value of the property on specified element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <returns>Property value.</returns>
+			public override sealed global::System.String GetValue(ClaseComponeClase element)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+				return element.cardinalidadIzquierdaPropertyStorage;
+			}
+		
+			/// <summary>
+			/// Sets property value on an element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <param name="newValue">New property value.</param>
+			public override sealed void SetValue(ClaseComponeClase element, global::System.String newValue)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+		
+				global::System.String oldValue = GetValue(element);
+				if (newValue != oldValue)
+				{
+					ValueChanging(element, oldValue, newValue);
+					element.cardinalidadIzquierdaPropertyStorage = newValue;
+					ValueChanged(element, oldValue, newValue);
+				}
+			}
+		}
+		
+		#endregion
+		#region CardinalidadDerecha domain property code
+		
+		/// <summary>
+		/// CardinalidadDerecha domain property Id.
+		/// </summary>
+		public static readonly global::System.Guid CardinalidadDerechaDomainPropertyId = new global::System.Guid(0xd6bd7899, 0x26d1, 0x4152, 0xac, 0x9a, 0x25, 0x6d, 0x7b, 0xad, 0xf4, 0x48);
+		
+		/// <summary>
+		/// Storage for CardinalidadDerecha
+		/// </summary>
+		private global::System.String cardinalidadDerechaPropertyStorage = string.Empty;
+		
+		/// <summary>
+		/// Gets or sets the value of CardinalidadDerecha domain property.
+		/// Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Cardinalidad
+		/// Derecha
+		/// </summary>
+		[DslDesign::DisplayNameResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadDerecha.DisplayName", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslDesign::DescriptionResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/CardinalidadDerecha.Description", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslModeling::DomainObjectId("d6bd7899-26d1-4152-ac9a-256d7badf448")]
+		public global::System.String CardinalidadDerecha
+		{
+			[global::System.Diagnostics.DebuggerStepThrough]
+			get
+			{
+				return cardinalidadDerechaPropertyStorage;
+			}
+			[global::System.Diagnostics.DebuggerStepThrough]
+			set
+			{
+				CardinalidadDerechaPropertyHandler.Instance.SetValue(this, value);
+			}
+		}
+		/// <summary>
+		/// Value handler for the ClaseComponeClase.CardinalidadDerecha domain property.
+		/// </summary>
+		internal sealed partial class CardinalidadDerechaPropertyHandler : DslModeling::DomainPropertyValueHandler<ClaseComponeClase, global::System.String>
+		{
+			private CardinalidadDerechaPropertyHandler() { }
+		
+			/// <summary>
+			/// Gets the singleton instance of the ClaseComponeClase.CardinalidadDerecha domain property value handler.
+			/// </summary>
+			public static readonly CardinalidadDerechaPropertyHandler Instance = new CardinalidadDerechaPropertyHandler();
+		
+			/// <summary>
+			/// Gets the Id of the ClaseComponeClase.CardinalidadDerecha domain property.
+			/// </summary>
+			public sealed override global::System.Guid DomainPropertyId
+			{
+				[global::System.Diagnostics.DebuggerStepThrough]
+				get
+				{
+					return CardinalidadDerechaDomainPropertyId;
+				}
+			}
+			
+			/// <summary>
+			/// Gets a strongly-typed value of the property on specified element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <returns>Property value.</returns>
+			public override sealed global::System.String GetValue(ClaseComponeClase element)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+				return element.cardinalidadDerechaPropertyStorage;
+			}
+		
+			/// <summary>
+			/// Sets property value on an element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <param name="newValue">New property value.</param>
+			public override sealed void SetValue(ClaseComponeClase element, global::System.String newValue)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+		
+				global::System.String oldValue = GetValue(element);
+				if (newValue != oldValue)
+				{
+					ValueChanging(element, oldValue, newValue);
+					element.cardinalidadDerechaPropertyStorage = newValue;
+					ValueChanged(element, oldValue, newValue);
+				}
+			}
+		}
+		
+		#endregion
 		#region SourceClase link accessor
 		/// <summary>
 		/// Get the list of ClaseComponeClase links to a Clase.
@@ -2611,6 +2982,182 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 				{
 					ValueChanging(element, oldValue, newValue);
 					element.nombrePropertyStorage = newValue;
+					ValueChanged(element, oldValue, newValue);
+				}
+			}
+		}
+		
+		#endregion
+		#region CardinalidadIzquierda domain property code
+		
+		/// <summary>
+		/// CardinalidadIzquierda domain property Id.
+		/// </summary>
+		public static readonly global::System.Guid CardinalidadIzquierdaDomainPropertyId = new global::System.Guid(0x3751be09, 0xf25f, 0x4fa9, 0xa5, 0x35, 0x5f, 0xad, 0xef, 0x5e, 0x86, 0xe7);
+		
+		/// <summary>
+		/// Storage for CardinalidadIzquierda
+		/// </summary>
+		private global::System.String cardinalidadIzquierdaPropertyStorage = string.Empty;
+		
+		/// <summary>
+		/// Gets or sets the value of CardinalidadIzquierda domain property.
+		/// Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Cardinalidad
+		/// Izquierda
+		/// </summary>
+		[DslDesign::DisplayNameResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadIzquierda.DisplayName", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslDesign::DescriptionResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadIzquierda.Description", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslModeling::DomainObjectId("3751be09-f25f-4fa9-a535-5fadef5e86e7")]
+		public global::System.String CardinalidadIzquierda
+		{
+			[global::System.Diagnostics.DebuggerStepThrough]
+			get
+			{
+				return cardinalidadIzquierdaPropertyStorage;
+			}
+			[global::System.Diagnostics.DebuggerStepThrough]
+			set
+			{
+				CardinalidadIzquierdaPropertyHandler.Instance.SetValue(this, value);
+			}
+		}
+		/// <summary>
+		/// Value handler for the ClaseAsociaClase.CardinalidadIzquierda domain property.
+		/// </summary>
+		internal sealed partial class CardinalidadIzquierdaPropertyHandler : DslModeling::DomainPropertyValueHandler<ClaseAsociaClase, global::System.String>
+		{
+			private CardinalidadIzquierdaPropertyHandler() { }
+		
+			/// <summary>
+			/// Gets the singleton instance of the ClaseAsociaClase.CardinalidadIzquierda domain property value handler.
+			/// </summary>
+			public static readonly CardinalidadIzquierdaPropertyHandler Instance = new CardinalidadIzquierdaPropertyHandler();
+		
+			/// <summary>
+			/// Gets the Id of the ClaseAsociaClase.CardinalidadIzquierda domain property.
+			/// </summary>
+			public sealed override global::System.Guid DomainPropertyId
+			{
+				[global::System.Diagnostics.DebuggerStepThrough]
+				get
+				{
+					return CardinalidadIzquierdaDomainPropertyId;
+				}
+			}
+			
+			/// <summary>
+			/// Gets a strongly-typed value of the property on specified element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <returns>Property value.</returns>
+			public override sealed global::System.String GetValue(ClaseAsociaClase element)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+				return element.cardinalidadIzquierdaPropertyStorage;
+			}
+		
+			/// <summary>
+			/// Sets property value on an element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <param name="newValue">New property value.</param>
+			public override sealed void SetValue(ClaseAsociaClase element, global::System.String newValue)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+		
+				global::System.String oldValue = GetValue(element);
+				if (newValue != oldValue)
+				{
+					ValueChanging(element, oldValue, newValue);
+					element.cardinalidadIzquierdaPropertyStorage = newValue;
+					ValueChanged(element, oldValue, newValue);
+				}
+			}
+		}
+		
+		#endregion
+		#region CardinalidadDerecha domain property code
+		
+		/// <summary>
+		/// CardinalidadDerecha domain property Id.
+		/// </summary>
+		public static readonly global::System.Guid CardinalidadDerechaDomainPropertyId = new global::System.Guid(0x801238af, 0x71b8, 0x4cf6, 0xb8, 0x54, 0x74, 0x29, 0xea, 0x0a, 0xb4, 0xf7);
+		
+		/// <summary>
+		/// Storage for CardinalidadDerecha
+		/// </summary>
+		private global::System.String cardinalidadDerechaPropertyStorage = string.Empty;
+		
+		/// <summary>
+		/// Gets or sets the value of CardinalidadDerecha domain property.
+		/// Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Cardinalidad
+		/// Derecha
+		/// </summary>
+		[DslDesign::DisplayNameResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadDerecha.DisplayName", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslDesign::DescriptionResource("UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/CardinalidadDerecha.Description", typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DSPMPVSCDProyectoIPSDomainModel), "UPM_IPS.DSPMPVSCDProyectoIPS.GeneratedCode.DomainModelResx")]
+		[DslModeling::DomainObjectId("801238af-71b8-4cf6-b854-7429ea0ab4f7")]
+		public global::System.String CardinalidadDerecha
+		{
+			[global::System.Diagnostics.DebuggerStepThrough]
+			get
+			{
+				return cardinalidadDerechaPropertyStorage;
+			}
+			[global::System.Diagnostics.DebuggerStepThrough]
+			set
+			{
+				CardinalidadDerechaPropertyHandler.Instance.SetValue(this, value);
+			}
+		}
+		/// <summary>
+		/// Value handler for the ClaseAsociaClase.CardinalidadDerecha domain property.
+		/// </summary>
+		internal sealed partial class CardinalidadDerechaPropertyHandler : DslModeling::DomainPropertyValueHandler<ClaseAsociaClase, global::System.String>
+		{
+			private CardinalidadDerechaPropertyHandler() { }
+		
+			/// <summary>
+			/// Gets the singleton instance of the ClaseAsociaClase.CardinalidadDerecha domain property value handler.
+			/// </summary>
+			public static readonly CardinalidadDerechaPropertyHandler Instance = new CardinalidadDerechaPropertyHandler();
+		
+			/// <summary>
+			/// Gets the Id of the ClaseAsociaClase.CardinalidadDerecha domain property.
+			/// </summary>
+			public sealed override global::System.Guid DomainPropertyId
+			{
+				[global::System.Diagnostics.DebuggerStepThrough]
+				get
+				{
+					return CardinalidadDerechaDomainPropertyId;
+				}
+			}
+			
+			/// <summary>
+			/// Gets a strongly-typed value of the property on specified element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <returns>Property value.</returns>
+			public override sealed global::System.String GetValue(ClaseAsociaClase element)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+				return element.cardinalidadDerechaPropertyStorage;
+			}
+		
+			/// <summary>
+			/// Sets property value on an element.
+			/// </summary>
+			/// <param name="element">Element which owns the property.</param>
+			/// <param name="newValue">New property value.</param>
+			public override sealed void SetValue(ClaseAsociaClase element, global::System.String newValue)
+			{
+				if (element == null) throw new global::System.ArgumentNullException("element");
+		
+				global::System.String oldValue = GetValue(element);
+				if (newValue != oldValue)
+				{
+					ValueChanging(element, oldValue, newValue);
+					element.cardinalidadDerechaPropertyStorage = newValue;
 					ValueChanged(element, oldValue, newValue);
 				}
 			}

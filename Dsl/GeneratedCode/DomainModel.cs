@@ -94,7 +94,11 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 				typeof(MetaforaAtributo),
 				typeof(MetaforaOperacion),
 				typeof(MetaforaClaseEnriquecida),
+				typeof(MetaforaEstiloClase),
+				typeof(MetaforaEstiloAtributo),
+				typeof(MetaforaEstiloOperacion),
 				typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.FixUpDiagram),
+				typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DecoratorPropertyChanged),
 				typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.ConnectorRolePlayerChanged),
 			};
 		}
@@ -110,22 +114,29 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 				new DomainMemberInfo(typeof(TapizDiagramaClases), "solucionDiagrama", TapizDiagramaClases.solucionDiagramaDomainPropertyId, typeof(TapizDiagramaClases.solucionDiagramaPropertyHandler)),
 				new DomainMemberInfo(typeof(Atributo), "Nombre", Atributo.NombreDomainPropertyId, typeof(Atributo.NombrePropertyHandler)),
 				new DomainMemberInfo(typeof(Atributo), "TipoDato", Atributo.TipoDatoDomainPropertyId, typeof(Atributo.TipoDatoPropertyHandler)),
+				new DomainMemberInfo(typeof(Atributo), "NombreYTipo", Atributo.NombreYTipoDomainPropertyId, typeof(Atributo.NombreYTipoPropertyHandler)),
 				new DomainMemberInfo(typeof(Operacion), "Nombre", Operacion.NombreDomainPropertyId, typeof(Operacion.NombrePropertyHandler)),
 				new DomainMemberInfo(typeof(Operacion), "ConjuntoDatos", Operacion.ConjuntoDatosDomainPropertyId, typeof(Operacion.ConjuntoDatosPropertyHandler)),
+				new DomainMemberInfo(typeof(Operacion), "NombreYParametros", Operacion.NombreYParametrosDomainPropertyId, typeof(Operacion.NombreYParametrosPropertyHandler)),
 				new DomainMemberInfo(typeof(Clase), "Nombre", Clase.NombreDomainPropertyId, typeof(Clase.NombrePropertyHandler)),
 				new DomainMemberInfo(typeof(EstiloOperacion), "TipoLetra", EstiloOperacion.TipoLetraDomainPropertyId, typeof(EstiloOperacion.TipoLetraPropertyHandler)),
-				new DomainMemberInfo(typeof(EstiloOperacion), "TipoColor", EstiloOperacion.TipoColorDomainPropertyId, typeof(EstiloOperacion.TipoColorPropertyHandler)),
+				new DomainMemberInfo(typeof(EstiloOperacion), "ColorLetra", EstiloOperacion.ColorLetraDomainPropertyId, typeof(EstiloOperacion.ColorLetraPropertyHandler)),
 				new DomainMemberInfo(typeof(EstiloClase), "ColorFondo", EstiloClase.ColorFondoDomainPropertyId, typeof(EstiloClase.ColorFondoPropertyHandler)),
 				new DomainMemberInfo(typeof(EstiloClase), "ColorLetra", EstiloClase.ColorLetraDomainPropertyId, typeof(EstiloClase.ColorLetraPropertyHandler)),
 				new DomainMemberInfo(typeof(EstiloClase), "TipoLetra", EstiloClase.TipoLetraDomainPropertyId, typeof(EstiloClase.TipoLetraPropertyHandler)),
 				new DomainMemberInfo(typeof(EstiloClase), "Alineacion", EstiloClase.AlineacionDomainPropertyId, typeof(EstiloClase.AlineacionPropertyHandler)),
 				new DomainMemberInfo(typeof(EstiloAtributo), "TipoLetra", EstiloAtributo.TipoLetraDomainPropertyId, typeof(EstiloAtributo.TipoLetraPropertyHandler)),
 				new DomainMemberInfo(typeof(EstiloAtributo), "ColorLetra", EstiloAtributo.ColorLetraDomainPropertyId, typeof(EstiloAtributo.ColorLetraPropertyHandler)),
-				new DomainMemberInfo(typeof(EstiloAtributo), "FormatoBooleano", EstiloAtributo.FormatoBooleanoDomainPropertyId, typeof(EstiloAtributo.FormatoBooleanoPropertyHandler)),
 				new DomainMemberInfo(typeof(ClaseHeredaClase), "TipoHerencia", ClaseHeredaClase.TipoHerenciaDomainPropertyId, typeof(ClaseHeredaClase.TipoHerenciaPropertyHandler)),
 				new DomainMemberInfo(typeof(ClaseAgregaClase), "Nombre", ClaseAgregaClase.NombreDomainPropertyId, typeof(ClaseAgregaClase.NombrePropertyHandler)),
+				new DomainMemberInfo(typeof(ClaseAgregaClase), "CardinalidadIzquierda", ClaseAgregaClase.CardinalidadIzquierdaDomainPropertyId, typeof(ClaseAgregaClase.CardinalidadIzquierdaPropertyHandler)),
+				new DomainMemberInfo(typeof(ClaseAgregaClase), "CardinalidadDerecha", ClaseAgregaClase.CardinalidadDerechaDomainPropertyId, typeof(ClaseAgregaClase.CardinalidadDerechaPropertyHandler)),
 				new DomainMemberInfo(typeof(ClaseComponeClase), "Nombre", ClaseComponeClase.NombreDomainPropertyId, typeof(ClaseComponeClase.NombrePropertyHandler)),
+				new DomainMemberInfo(typeof(ClaseComponeClase), "CardinalidadIzquierda", ClaseComponeClase.CardinalidadIzquierdaDomainPropertyId, typeof(ClaseComponeClase.CardinalidadIzquierdaPropertyHandler)),
+				new DomainMemberInfo(typeof(ClaseComponeClase), "CardinalidadDerecha", ClaseComponeClase.CardinalidadDerechaDomainPropertyId, typeof(ClaseComponeClase.CardinalidadDerechaPropertyHandler)),
 				new DomainMemberInfo(typeof(ClaseAsociaClase), "Nombre", ClaseAsociaClase.NombreDomainPropertyId, typeof(ClaseAsociaClase.NombrePropertyHandler)),
+				new DomainMemberInfo(typeof(ClaseAsociaClase), "CardinalidadIzquierda", ClaseAsociaClase.CardinalidadIzquierdaDomainPropertyId, typeof(ClaseAsociaClase.CardinalidadIzquierdaPropertyHandler)),
+				new DomainMemberInfo(typeof(ClaseAsociaClase), "CardinalidadDerecha", ClaseAsociaClase.CardinalidadDerechaDomainPropertyId, typeof(ClaseAsociaClase.CardinalidadDerechaPropertyHandler)),
 			};
 		}
 		/// <summary>
@@ -177,7 +188,7 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 	
 			if (createElementMap == null)
 			{
-				createElementMap = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(17);
+				createElementMap = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(20);
 				createElementMap.Add(typeof(TapizDiagramaClases), 0);
 				createElementMap.Add(typeof(Atributo), 1);
 				createElementMap.Add(typeof(Operacion), 2);
@@ -195,6 +206,9 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 				createElementMap.Add(typeof(MetaforaAtributo), 14);
 				createElementMap.Add(typeof(MetaforaOperacion), 15);
 				createElementMap.Add(typeof(MetaforaClaseEnriquecida), 16);
+				createElementMap.Add(typeof(MetaforaEstiloClase), 17);
+				createElementMap.Add(typeof(MetaforaEstiloAtributo), 18);
+				createElementMap.Add(typeof(MetaforaEstiloOperacion), 19);
 			}
 			int index;
 			if (!createElementMap.TryGetValue(elementType, out index))
@@ -225,6 +239,9 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 				case 14: return new MetaforaAtributo(partition, propertyAssignments);
 				case 15: return new MetaforaOperacion(partition, propertyAssignments);
 				case 16: return new MetaforaClaseEnriquecida(partition, propertyAssignments);
+				case 17: return new MetaforaEstiloClase(partition, propertyAssignments);
+				case 18: return new MetaforaEstiloAtributo(partition, propertyAssignments);
+				case 19: return new MetaforaEstiloOperacion(partition, propertyAssignments);
 				default: return null;
 			}
 		}
@@ -402,6 +419,7 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 			
 			DslModeling::RuleManager ruleManager = store.RuleManager;
 			ruleManager.EnableRule(typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.FixUpDiagram));
+			ruleManager.EnableRule(typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DecoratorPropertyChanged));
 			ruleManager.EnableRule(typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.ConnectorRolePlayerChanged));
 		}
 		
@@ -414,6 +432,7 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 			
 			DslModeling::RuleManager ruleManager = store.RuleManager;
 			ruleManager.DisableRule(typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.FixUpDiagram));
+			ruleManager.DisableRule(typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.DecoratorPropertyChanged));
 			ruleManager.DisableRule(typeof(global::UPM_IPS.DSPMPVSCDProyectoIPS.ConnectorRolePlayerChanged));
 		}
 		#endregion

@@ -115,6 +115,8 @@
         <xsd:attribute name="nombre" type="xsd:string" />
         <!-- Property: ConjuntoDatos -->
         <xsd:attribute name="conjuntoDatos" type="xsd:string" />
+        <!-- Property: NombreYParametros -->
+        <xsd:attribute name="nombreYParametros" type="xsd:string" />
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
@@ -275,8 +277,8 @@
         </xsd:attribute>
         <!-- Property: TipoLetra -->
         <xsd:attribute name="tipoLetra" type="xsd:string" />
-        <!-- Property: TipoColor -->
-        <xsd:attribute name="tipoColor" type="xsd:string" />
+        <!-- Property: ColorLetra -->
+        <xsd:attribute name="colorLetra" type="xsd:string" />
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
@@ -427,8 +429,6 @@
         <xsd:attribute name="tipoLetra" type="xsd:string" use="required" />
         <!-- Property: ColorLetra -->
         <xsd:attribute name="colorLetra" type="xsd:string" />
-        <!-- Property: FormatoBooleano -->
-        <xsd:attribute name="formatoBooleano" type="xsd:string" />
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
@@ -753,6 +753,10 @@
         </xsd:attribute>
         <!-- Property: Nombre -->
         <xsd:attribute name="nombre" type="xsd:string" />
+        <!-- Property: CardinalidadIzquierda -->
+        <xsd:attribute name="cardinalidadIzquierda" type="xsd:string" />
+        <!-- Property: CardinalidadDerecha -->
+        <xsd:attribute name="cardinalidadDerecha" type="xsd:string" />
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
@@ -795,6 +799,10 @@
         </xsd:attribute>
         <!-- Property: Nombre -->
         <xsd:attribute name="nombre" type="xsd:string" />
+        <!-- Property: CardinalidadIzquierda -->
+        <xsd:attribute name="cardinalidadIzquierda" type="xsd:string" />
+        <!-- Property: CardinalidadDerecha -->
+        <xsd:attribute name="cardinalidadDerecha" type="xsd:string" />
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
@@ -837,6 +845,10 @@
         </xsd:attribute>
         <!-- Property: Nombre -->
         <xsd:attribute name="nombre" type="xsd:string" />
+        <!-- Property: CardinalidadIzquierda -->
+        <xsd:attribute name="cardinalidadIzquierda" type="xsd:string" />
+        <!-- Property: CardinalidadDerecha -->
+        <xsd:attribute name="cardinalidadDerecha" type="xsd:string" />
       </xsd:extension>
     </xsd:complexContent>
   </xsd:complexType>
