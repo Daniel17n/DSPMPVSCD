@@ -125,113 +125,677 @@
     <value>DSPMPVSCDProyectoIPS</value>
     <comment>DisplayName for DslLibrary &apos;DSPMPVSCDProyectoIPS&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModel.Description" xml:space="preserve">
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClases.Description" xml:space="preserve">
     <value>The root in which all other elements are embedded. Appears as a diagram.</value>
-    <comment>Description for DomainClass &apos;ExampleModel&apos;</comment>
+    <comment>Description for DomainClass &apos;TapizDiagramaClases&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModel.DisplayName" xml:space="preserve">
-    <value>Example Model</value>
-    <comment>DisplayName for DomainClass &apos;ExampleModel&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClases.DisplayName" xml:space="preserve">
+    <value>Tapiz Diagrama Clases</value>
+    <comment>DisplayName for DomainClass &apos;TapizDiagramaClases&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElement.Description" xml:space="preserve">
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClases/solucionDiagrama.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClases.Solucion Diagrama</value>
+    <comment>Description for DomainProperty &apos;solucionDiagrama&apos; on DomainClass &apos;TapizDiagramaClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClases/solucionDiagrama.DisplayName" xml:space="preserve">
+    <value>Solucion Diagrama</value>
+    <comment>DisplayName for DomainProperty &apos;solucionDiagrama&apos; on DomainClass &apos;TapizDiagramaClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo.Description" xml:space="preserve">
     <value>Elements embedded in the model. Appear as boxes on the diagram.</value>
-    <comment>Description for DomainClass &apos;ExampleElement&apos;</comment>
+    <comment>Description for DomainClass &apos;Atributo&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElement.DisplayName" xml:space="preserve">
-    <value>Example Element</value>
-    <comment>DisplayName for DomainClass &apos;ExampleElement&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo.DisplayName" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>DisplayName for DomainClass &apos;Atributo&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElement/Name.Description" xml:space="preserve">
-    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElement.Name</value>
-    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;ExampleElement&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Atributo.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Atributo&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElement/Name.DisplayName" xml:space="preserve">
-    <value>Name</value>
-    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;ExampleElement&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Atributo&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements.Description" xml:space="preserve">
-    <value>Embedding relationship between the Model and Elements</value>
-    <comment>Description for DomainClass &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo/TipoDato.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Atributo.Tipo Dato</value>
+    <comment>Description for DomainProperty &apos;TipoDato&apos; on DomainClass &apos;Atributo&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements.DisplayName" xml:space="preserve">
-    <value>Example Model Has Elements</value>
-    <comment>DisplayName for DomainClass &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Atributo/TipoDato.DisplayName" xml:space="preserve">
+    <value>Tipo Dato</value>
+    <comment>DisplayName for DomainProperty &apos;TipoDato&apos; on DomainClass &apos;Atributo&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements/ExampleModel.Description" xml:space="preserve">
-    <value></value>
-    <comment>Description for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Operacion</value>
+    <comment>Description for DomainClass &apos;Operacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements/ExampleModel.DisplayName" xml:space="preserve">
-    <value>Example Model</value>
-    <comment>DisplayName for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion.DisplayName" xml:space="preserve">
+    <value>Operacion</value>
+    <comment>DisplayName for DomainClass &apos;Operacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements/ExampleModel.PropertyDisplayName" xml:space="preserve">
-    <value>Elements</value>
-    <comment>PropertyDisplayName for DomainRole &apos;ExampleModel&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Operacion.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Operacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements/Element.Description" xml:space="preserve">
-    <value></value>
-    <comment>Description for DomainRole &apos;Element&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Operacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements/Element.DisplayName" xml:space="preserve">
-    <value>Element</value>
-    <comment>DisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion/ConjuntoDatos.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Operacion.Conjunto Datos</value>
+    <comment>Description for DomainProperty &apos;ConjuntoDatos&apos; on DomainClass &apos;Operacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModelHasElements/Element.PropertyDisplayName" xml:space="preserve">
-    <value>Example Model</value>
-    <comment>PropertyDisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;ExampleModelHasElements&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Operacion/ConjuntoDatos.DisplayName" xml:space="preserve">
+    <value>Conjunto Datos</value>
+    <comment>DisplayName for DomainProperty &apos;ConjuntoDatos&apos; on DomainClass &apos;Operacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets.Description" xml:space="preserve">
-    <value>Reference relationship between Elements.</value>
-    <comment>Description for DomainClass &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Clase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Clase</value>
+    <comment>Description for DomainClass &apos;Clase&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets.DisplayName" xml:space="preserve">
-    <value>Example Element References Targets</value>
-    <comment>DisplayName for DomainClass &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Clase.DisplayName" xml:space="preserve">
+    <value>Clase</value>
+    <comment>DisplayName for DomainClass &apos;Clase&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets/Source.Description" xml:space="preserve">
-    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ExampleRelationship.Target</value>
-    <comment>Description for DomainRole &apos;Source&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Clase/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.Clase.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Clase&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets/Source.DisplayName" xml:space="preserve">
-    <value>Source</value>
-    <comment>DisplayName for DomainRole &apos;Source&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.Clase/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;Clase&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets/Source.PropertyDisplayName" xml:space="preserve">
-    <value>Targets</value>
-    <comment>PropertyDisplayName for DomainRole &apos;Source&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion</value>
+    <comment>Description for DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets/Target.Description" xml:space="preserve">
-    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ExampleRelationship.Source</value>
-    <comment>Description for DomainRole &apos;Target&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.DisplayName" xml:space="preserve">
+    <value>Estilo Operacion</value>
+    <comment>DisplayName for DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets/Target.DisplayName" xml:space="preserve">
-    <value>Target</value>
-    <comment>DisplayName for DomainRole &apos;Target&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/TipoLetra.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.Tipo Letra</value>
+    <comment>Description for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleElementReferencesTargets/Target.PropertyDisplayName" xml:space="preserve">
-    <value>Sources</value>
-    <comment>PropertyDisplayName for DomainRole &apos;Target&apos; on DomainRelationship &apos;ExampleElementReferencesTargets&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/TipoLetra.DisplayName" xml:space="preserve">
+    <value>Tipo Letra</value>
+    <comment>DisplayName for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleShape.Description" xml:space="preserve">
-    <value>Shape used to represent ExampleElements on a Diagram.</value>
-    <comment>Description for DomainClass &apos;ExampleShape&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/TipoColor.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion.Tipo Color</value>
+    <comment>Description for DomainProperty &apos;TipoColor&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleShape.DisplayName" xml:space="preserve">
-    <value>Example Shape</value>
-    <comment>DisplayName for DomainClass &apos;ExampleShape&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloOperacion/TipoColor.DisplayName" xml:space="preserve">
+    <value>Tipo Color</value>
+    <comment>DisplayName for DomainProperty &apos;TipoColor&apos; on DomainClass &apos;EstiloOperacion&apos;</comment>
   </data>
-  <data name="ExampleShapeNameDecoratorDefaultText" xml:space="preserve">
-    <value>NameDecorator</value>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecida.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecida</value>
+    <comment>Description for DomainClass &apos;ClaseEnriquecida&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecida.DisplayName" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>DisplayName for DomainClass &apos;ClaseEnriquecida&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase</value>
+    <comment>Description for DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase.DisplayName" xml:space="preserve">
+    <value>Estilo Clase</value>
+    <comment>DisplayName for DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/ColorFondo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase.Color Fondo</value>
+    <comment>Description for DomainProperty &apos;ColorFondo&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/ColorFondo.DisplayName" xml:space="preserve">
+    <value>Color Fondo</value>
+    <comment>DisplayName for DomainProperty &apos;ColorFondo&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/ColorLetra.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase.Color Letra</value>
+    <comment>Description for DomainProperty &apos;ColorLetra&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/ColorLetra.DisplayName" xml:space="preserve">
+    <value>Color Letra</value>
+    <comment>DisplayName for DomainProperty &apos;ColorLetra&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/TipoLetra.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase.Tipo Letra</value>
+    <comment>Description for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/TipoLetra.DisplayName" xml:space="preserve">
+    <value>Tipo Letra</value>
+    <comment>DisplayName for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/Alineacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase.Alineacion</value>
+    <comment>Description for DomainProperty &apos;Alineacion&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloClase/Alineacion.DisplayName" xml:space="preserve">
+    <value>Alineacion</value>
+    <comment>DisplayName for DomainProperty &apos;Alineacion&apos; on DomainClass &apos;EstiloClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo</value>
+    <comment>Description for DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo.DisplayName" xml:space="preserve">
+    <value>Estilo Atributo</value>
+    <comment>DisplayName for DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/TipoLetra.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo.Tipo Letra</value>
+    <comment>Description for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/TipoLetra.DisplayName" xml:space="preserve">
+    <value>Tipo Letra</value>
+    <comment>DisplayName for DomainProperty &apos;TipoLetra&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/ColorLetra.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo.Color Letra</value>
+    <comment>Description for DomainProperty &apos;ColorLetra&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/ColorLetra.DisplayName" xml:space="preserve">
+    <value>Color Letra</value>
+    <comment>DisplayName for DomainProperty &apos;ColorLetra&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/FormatoBooleano.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo.Formato Booleano</value>
+    <comment>Description for DomainProperty &apos;FormatoBooleano&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.EstiloAtributo/FormatoBooleano.DisplayName" xml:space="preserve">
+    <value>Formato Booleano</value>
+    <comment>DisplayName for DomainProperty &apos;FormatoBooleano&apos; on DomainClass &apos;EstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases</value>
+    <comment>Description for DomainClass &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases.DisplayName" xml:space="preserve">
+    <value>Tapiz Diagrama Clases Has Clases</value>
+    <comment>DisplayName for DomainClass &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases/TapizDiagramaClases.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases.TapizDiagramaClases</value>
+    <comment>Description for DomainRole &apos;TapizDiagramaClases&apos; on DomainRelationship &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases/TapizDiagramaClases.DisplayName" xml:space="preserve">
+    <value>Tapiz Diagrama Clases</value>
+    <comment>DisplayName for DomainRole &apos;TapizDiagramaClases&apos; on DomainRelationship &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases/TapizDiagramaClases.PropertyDisplayName" xml:space="preserve">
+    <value>Clases</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TapizDiagramaClases&apos; on DomainRelationship &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases/Clase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases.Clase</value>
+    <comment>Description for DomainRole &apos;Clase&apos; on DomainRelationship &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases/Clase.DisplayName" xml:space="preserve">
+    <value>Clase</value>
+    <comment>DisplayName for DomainRole &apos;Clase&apos; on DomainRelationship &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClasesHasClases/Clase.PropertyDisplayName" xml:space="preserve">
+    <value>Tapiz Diagrama Clases</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Clase&apos; on DomainRelationship &apos;TapizDiagramaClasesHasClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo</value>
+    <comment>Description for DomainClass &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo.DisplayName" xml:space="preserve">
+    <value>Clase Has Atributo</value>
+    <comment>DisplayName for DomainClass &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo/Clase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo.Clase</value>
+    <comment>Description for DomainRole &apos;Clase&apos; on DomainRelationship &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo/Clase.DisplayName" xml:space="preserve">
+    <value>Clase</value>
+    <comment>DisplayName for DomainRole &apos;Clase&apos; on DomainRelationship &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo/Clase.PropertyDisplayName" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Clase&apos; on DomainRelationship &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo/Atributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo.Atributo</value>
+    <comment>Description for DomainRole &apos;Atributo&apos; on DomainRelationship &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo/Atributo.DisplayName" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>DisplayName for DomainRole &apos;Atributo&apos; on DomainRelationship &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasAtributo/Atributo.PropertyDisplayName" xml:space="preserve">
+    <value>Clase</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Atributo&apos; on DomainRelationship &apos;ClaseHasAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion</value>
+    <comment>Description for DomainClass &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion.DisplayName" xml:space="preserve">
+    <value>Clase Has Operacion</value>
+    <comment>DisplayName for DomainClass &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion/Clase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion.Clase</value>
+    <comment>Description for DomainRole &apos;Clase&apos; on DomainRelationship &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion/Clase.DisplayName" xml:space="preserve">
+    <value>Clase</value>
+    <comment>DisplayName for DomainRole &apos;Clase&apos; on DomainRelationship &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion/Clase.PropertyDisplayName" xml:space="preserve">
+    <value>Operacioned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Clase&apos; on DomainRelationship &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion/Operacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion.Operacion</value>
+    <comment>Description for DomainRole &apos;Operacion&apos; on DomainRelationship &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion/Operacion.DisplayName" xml:space="preserve">
+    <value>Operacion</value>
+    <comment>DisplayName for DomainRole &apos;Operacion&apos; on DomainRelationship &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHasOperacion/Operacion.PropertyDisplayName" xml:space="preserve">
+    <value>Clase</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Operacion&apos; on DomainRelationship &apos;ClaseHasOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase</value>
+    <comment>Description for DomainClass &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.DisplayName" xml:space="preserve">
+    <value>Clase Hereda Clase</value>
+    <comment>DisplayName for DomainClass &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TipoHerencia.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.Tipo Herencia</value>
+    <comment>Description for DomainProperty &apos;TipoHerencia&apos; on DomainClass &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TipoHerencia.DisplayName" xml:space="preserve">
+    <value>Tipo Herencia</value>
+    <comment>DisplayName for DomainProperty &apos;TipoHerencia&apos; on DomainClass &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/SourceClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.SourceClase</value>
+    <comment>Description for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/SourceClase.DisplayName" xml:space="preserve">
+    <value>Source Clase</value>
+    <comment>DisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/SourceClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Hija</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TargetClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase.TargetClase</value>
+    <comment>Description for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TargetClase.DisplayName" xml:space="preserve">
+    <value>Target Clase</value>
+    <comment>DisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseHeredaClase/TargetClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Padre</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseHeredaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases</value>
+    <comment>Description for DomainClass &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases.DisplayName" xml:space="preserve">
+    <value>Clase Enriquecida Has Estilo Clases</value>
+    <comment>DisplayName for DomainClass &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases/ClaseEnriquecida.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases.ClaseEnriquecida</value>
+    <comment>Description for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases/ClaseEnriquecida.DisplayName" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>DisplayName for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases/ClaseEnriquecida.PropertyDisplayName" xml:space="preserve">
+    <value>Estilo Clases</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases/EstiloClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases.EstiloClase</value>
+    <comment>Description for DomainRole &apos;EstiloClase&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases/EstiloClase.DisplayName" xml:space="preserve">
+    <value>Estilo Clase</value>
+    <comment>DisplayName for DomainRole &apos;EstiloClase&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloClases/EstiloClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstiloClase&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloClases&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo</value>
+    <comment>Description for DomainClass &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo.DisplayName" xml:space="preserve">
+    <value>Clase Enriquecida Has Estilo Atributo</value>
+    <comment>DisplayName for DomainClass &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo/ClaseEnriquecida.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo.ClaseEnriquecida</value>
+    <comment>Description for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo/ClaseEnriquecida.DisplayName" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>DisplayName for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo/ClaseEnriquecida.PropertyDisplayName" xml:space="preserve">
+    <value>Estilo Atributo</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo/EstiloAtributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo.EstiloAtributo</value>
+    <comment>Description for DomainRole &apos;EstiloAtributo&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo/EstiloAtributo.DisplayName" xml:space="preserve">
+    <value>Estilo Atributo</value>
+    <comment>DisplayName for DomainRole &apos;EstiloAtributo&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloAtributo/EstiloAtributo.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstiloAtributo&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloAtributo&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned</value>
+    <comment>Description for DomainClass &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned.DisplayName" xml:space="preserve">
+    <value>Clase Enriquecida Has Estilo Operacioned</value>
+    <comment>DisplayName for DomainClass &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned/ClaseEnriquecida.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned.ClaseEnriquecida</value>
+    <comment>Description for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned/ClaseEnriquecida.DisplayName" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>DisplayName for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned/ClaseEnriquecida.PropertyDisplayName" xml:space="preserve">
+    <value>Estilo Operacioned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ClaseEnriquecida&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned/EstiloOperacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned.EstiloOperacion</value>
+    <comment>Description for DomainRole &apos;EstiloOperacion&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned/EstiloOperacion.DisplayName" xml:space="preserve">
+    <value>Estilo Operacion</value>
+    <comment>DisplayName for DomainRole &apos;EstiloOperacion&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseEnriquecidaHasEstiloOperacioned/EstiloOperacion.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EstiloOperacion&apos; on DomainRelationship &apos;ClaseEnriquecidaHasEstiloOperacioned&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase</value>
+    <comment>Description for DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.DisplayName" xml:space="preserve">
+    <value>Clase Agrega Clase</value>
+    <comment>DisplayName for DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/SourceClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.SourceClase</value>
+    <comment>Description for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/SourceClase.DisplayName" xml:space="preserve">
+    <value>Source Clase</value>
+    <comment>DisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/SourceClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Agregada</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/TargetClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase.TargetClase</value>
+    <comment>Description for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/TargetClase.DisplayName" xml:space="preserve">
+    <value>Target Clase</value>
+    <comment>DisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAgregaClase/TargetClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Agregante</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseAgregaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase</value>
+    <comment>Description for DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.DisplayName" xml:space="preserve">
+    <value>Clase Compone Clase</value>
+    <comment>DisplayName for DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/SourceClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.SourceClase</value>
+    <comment>Description for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/SourceClase.DisplayName" xml:space="preserve">
+    <value>Source Clase</value>
+    <comment>DisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/SourceClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Componente</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/TargetClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase.TargetClase</value>
+    <comment>Description for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/TargetClase.DisplayName" xml:space="preserve">
+    <value>Target Clase</value>
+    <comment>DisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseComponeClase/TargetClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Compuesta</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseComponeClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase</value>
+    <comment>Description for DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.DisplayName" xml:space="preserve">
+    <value>Clase Asocia Clase</value>
+    <comment>DisplayName for DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/Nombre.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.Nombre</value>
+    <comment>Description for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/Nombre.DisplayName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;Nombre&apos; on DomainClass &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/SourceClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.SourceClase</value>
+    <comment>Description for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/SourceClase.DisplayName" xml:space="preserve">
+    <value>Source Clase</value>
+    <comment>DisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/SourceClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Asociada</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceClase&apos; on DomainRelationship &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/TargetClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase.TargetClase</value>
+    <comment>Description for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/TargetClase.DisplayName" xml:space="preserve">
+    <value>Target Clase</value>
+    <comment>DisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ClaseAsociaClase/TargetClase.PropertyDisplayName" xml:space="preserve">
+    <value>Clase Asociante</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetClase&apos; on DomainRelationship &apos;ClaseAsociaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/TotalSolapada.DisplayName" xml:space="preserve">
+    <value>TotalSolapada</value>
+    <comment>Display name for EnumerationLiteral &apos;TotalSolapada&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/TotalSolapada.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia.TotalSolapada</value>
+    <comment>Description for EnumerationLiteral &apos;TotalSolapada&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/ParcialDisjunta.DisplayName" xml:space="preserve">
+    <value>ParcialDisjunta</value>
+    <comment>Display name for EnumerationLiteral &apos;ParcialDisjunta&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/ParcialDisjunta.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia.ParcialDisjunta</value>
+    <comment>Description for EnumerationLiteral &apos;ParcialDisjunta&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/ParcialSolapada.DisplayName" xml:space="preserve">
+    <value>ParcialSolapada</value>
+    <comment>Display name for EnumerationLiteral &apos;ParcialSolapada&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/ParcialSolapada.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia.ParcialSolapada</value>
+    <comment>Description for EnumerationLiteral &apos;ParcialSolapada&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/TotalDisjunta.DisplayName" xml:space="preserve">
+    <value>TotalDisjunta</value>
+    <comment>Display name for EnumerationLiteral &apos;TotalDisjunta&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia/TotalDisjunta.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TTipoHerencia.TotalDisjunta</value>
+    <comment>Description for EnumerationLiteral &apos;TotalDisjunta&apos; on DomainEnumeration &apos;TTipoHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion/Izquierda.DisplayName" xml:space="preserve">
+    <value>Izquierda</value>
+    <comment>Display name for EnumerationLiteral &apos;Izquierda&apos; on DomainEnumeration &apos;TAlineacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion/Izquierda.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion.Izquierda</value>
+    <comment>Description for EnumerationLiteral &apos;Izquierda&apos; on DomainEnumeration &apos;TAlineacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion/Derecha.DisplayName" xml:space="preserve">
+    <value>Derecha</value>
+    <comment>Display name for EnumerationLiteral &apos;Derecha&apos; on DomainEnumeration &apos;TAlineacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion/Derecha.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion.Derecha</value>
+    <comment>Description for EnumerationLiteral &apos;Derecha&apos; on DomainEnumeration &apos;TAlineacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion/Centro.DisplayName" xml:space="preserve">
+    <value>Centro</value>
+    <comment>Display name for EnumerationLiteral &apos;Centro&apos; on DomainEnumeration &apos;TAlineacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion/Centro.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.TAlineacion.Centro</value>
+    <comment>Description for EnumerationLiteral &apos;Centro&apos; on DomainEnumeration &apos;TAlineacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClase.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClase</value>
+    <comment>Description for DomainClass &apos;MetaforaClase&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClase.DisplayName" xml:space="preserve">
+    <value>Metafora Clase</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaClase&apos;</comment>
+  </data>
+  <data name="MetaforaClaseNombreClaseDefaultText" xml:space="preserve">
+    <value>NombreClase</value>
     <comment>Text decorator default text</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleConnector.Description" xml:space="preserve">
-    <value>Connector between the ExampleShapes. Represents ExampleRelationships on the Diagram.</value>
-    <comment>Description for DomainClass &apos;ExampleConnector&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAtributo.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAtributo</value>
+    <comment>Description for DomainClass &apos;MetaforaAtributo&apos;</comment>
   </data>
-  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.ExampleConnector.DisplayName" xml:space="preserve">
-    <value>Example Connector</value>
-    <comment>DisplayName for DomainClass &apos;ExampleConnector&apos;</comment>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAtributo.DisplayName" xml:space="preserve">
+    <value>Metafora Atributo</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaAtributo&apos;</comment>
+  </data>
+  <data name="MetaforaAtributoNombreAtributoDefaultText" xml:space="preserve">
+    <value>NombreAtributo</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaOperacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaOperacion</value>
+    <comment>Description for DomainClass &apos;MetaforaOperacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaOperacion.DisplayName" xml:space="preserve">
+    <value>Metafora Operacion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaOperacion&apos;</comment>
+  </data>
+  <data name="MetaforaOperacionNombreOperacionDefaultText" xml:space="preserve">
+    <value>NombreOperacion</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClaseEnriquecida.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClaseEnriquecida</value>
+    <comment>Description for DomainClass &apos;MetaforaClaseEnriquecida&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaClaseEnriquecida.DisplayName" xml:space="preserve">
+    <value>Metafora Clase Enriquecida</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaClaseEnriquecida&apos;</comment>
+  </data>
+  <data name="MetaforaClaseEnriquecidaNombreClaseEnriquecidaDefaultText" xml:space="preserve">
+    <value>NombreClaseEnriquecida</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia</value>
+    <comment>Description for DomainClass &apos;MetaforaHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaHerencia.DisplayName" xml:space="preserve">
+    <value>Metafora Herencia</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaHerencia&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAgregacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAgregacion</value>
+    <comment>Description for DomainClass &apos;MetaforaAgregacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAgregacion.DisplayName" xml:space="preserve">
+    <value>Metafora Agregacion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaAgregacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaComposicion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaComposicion</value>
+    <comment>Description for DomainClass &apos;MetaforaComposicion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaComposicion.DisplayName" xml:space="preserve">
+    <value>Metafora Composicion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaComposicion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion.Description" xml:space="preserve">
+    <value>Description for UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion</value>
+    <comment>Description for DomainClass &apos;MetaforaAsociacion&apos;</comment>
+  </data>
+  <data name="UPM_IPS.DSPMPVSCDProyectoIPS.MetaforaAsociacion.DisplayName" xml:space="preserve">
+    <value>Metafora Asociacion</value>
+    <comment>DisplayName for DomainClass &apos;MetaforaAsociacion&apos;</comment>
   </data>
   <data name="FormatList" xml:space="preserve">
     <value>DSPMPVSCDProyectoIPS (*.DSPMPVSCD_DSLProyectoIPS)|*.DSPMPVSCD_DSLProyectoIPS</value>
@@ -253,20 +817,92 @@
     <value>DSPMPVSCDProyectoIPS</value>
     <comment>Toolbox item tab name</comment>
   </data>
-  <data name="ExampleElementToolboxItem" xml:space="preserve">
-    <value>ExampleElement</value>
+  <data name="ClaseToolboxItem" xml:space="preserve">
+    <value>Clase</value>
     <comment>Toolbox item name</comment>
   </data>
-  <data name="ExampleElementToolboxTooltip" xml:space="preserve">
-    <value>Create an ExampleElement</value>
+  <data name="ClaseToolboxTooltip" xml:space="preserve">
+    <value>Clase</value>
     <comment>Toolbox tooltip text</comment>
   </data>
-  <data name="ExampleRelationshipToolboxItem" xml:space="preserve">
-    <value>ExampleRelationship</value>
+  <data name="AtributoToolboxItem" xml:space="preserve">
+    <value>Atributo</value>
     <comment>Toolbox item name</comment>
   </data>
-  <data name="ExampleRelationshipToolboxTooltip" xml:space="preserve">
-    <value>Drag between ExampleElements to create an ExampleRelationship</value>
+  <data name="AtributoToolboxTooltip" xml:space="preserve">
+    <value>Atributo</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="OperacionToolboxItem" xml:space="preserve">
+    <value>Operacion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="OperacionToolboxTooltip" xml:space="preserve">
+    <value>Operacion</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionAsociacionToolboxItem" xml:space="preserve">
+    <value>RelacionAsociacion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionAsociacionToolboxTooltip" xml:space="preserve">
+    <value>Relacion Asociacion</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionAgregacionToolboxItem" xml:space="preserve">
+    <value>RelacionAgregacion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionAgregacionToolboxTooltip" xml:space="preserve">
+    <value>Relacion Agregacion</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionComposicionToolboxItem" xml:space="preserve">
+    <value>RelacionComposicion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionComposicionToolboxTooltip" xml:space="preserve">
+    <value>Relacion Composicion</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelacionHerenciaToolboxItem" xml:space="preserve">
+    <value>RelacionHerencia</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelacionHerenciaToolboxTooltip" xml:space="preserve">
+    <value>Relacion Herencia</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ClaseEnriquecidaToolboxItem" xml:space="preserve">
+    <value>ClaseEnriquecida</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ClaseEnriquecidaToolboxTooltip" xml:space="preserve">
+    <value>Clase Enriquecida</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstiloClaseToolboxItem" xml:space="preserve">
+    <value>EstiloClase</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EstiloClaseToolboxTooltip" xml:space="preserve">
+    <value>Estilo Clase</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstiloAtributoToolboxItem" xml:space="preserve">
+    <value>EstiloAtributo</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EstiloAtributoToolboxTooltip" xml:space="preserve">
+    <value>Estilo Atributo</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EstiloOperacionToolboxItem" xml:space="preserve">
+    <value>EstiloOperacion</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EstiloOperacionToolboxTooltip" xml:space="preserve">
+    <value>Estilo Operacion</value>
     <comment>Toolbox tooltip text</comment>
   </data>
   <data name="UnresolvedToolboxItem" xml:space="preserve">
@@ -394,12 +1030,80 @@ A DomainClass can be serialized as a moniker only if
     <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ExampleElementToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ClaseToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Clase.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Toolbox item image</comment>
   </data>
-  <data name="ExampleRelationshipToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
-    <value>..\resources\exampleconnectortoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AtributoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Atributo.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="OperacionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Operation.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionAsociacionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\RelaciónAsociación.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionAsociacionSourceCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorSourceSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="RelacionAsociacionTargetCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorTargetSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="RelacionAgregacionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\RelaciónDébil.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionAgregacionSourceCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorSourceSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="RelacionAgregacionTargetCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorTargetSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="RelacionComposicionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\RelaciónFuerte.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionComposicionSourceCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorSourceSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="RelacionComposicionTargetCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorTargetSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="RelacionHerenciaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\RelaciónHerenciaIcono.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelacionHerenciaSourceCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorSourceSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="RelacionHerenciaTargetCursor" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ConnectorTargetSearch.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Custom connection tool cursor</comment>
+  </data>
+  <data name="ClaseEnriquecidaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ClaseEnriquecida.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EstiloClaseToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\EstiloClase.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EstiloAtributoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\EstiloAtributo.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EstiloOperacionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\EstiloOperacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
     <comment>Toolbox item image</comment>
   </data>
 </root>

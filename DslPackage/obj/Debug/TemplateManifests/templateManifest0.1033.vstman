@@ -1,0 +1,32 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>CSharp\1033\DSPMPVSCDProyectoIPS</RelativePathOnDisk>
+    <TemplateFileName>CSharp.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{2a53b6fb-9e91-46a6-8de7-38a2de848e51}</TemplateID>
+        <Name Package="{407613d8-6771-415b-a380-b3eb0239ac37}" ID="103" />
+        <Description Package="{407613d8-6771-415b-a380-b3eb0239ac37}" ID="102" />
+        <Icon Package="{407613d8-6771-415b-a380-b3eb0239ac37}" ID="201" />
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>DSPMPVSCDProyectoIPS.DSPMPVSCD_DSLProyectoIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Item">
+    <RelativePathOnDisk>VisualBasic\1033\DSPMPVSCDProyectoIPS</RelativePathOnDisk>
+    <TemplateFileName>VisualBasic.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <TemplateID>{3eed705e-8965-4afd-80d4-65bee57fb9f0}</TemplateID>
+        <Name Package="{407613d8-6771-415b-a380-b3eb0239ac37}" ID="103" />
+        <Description Package="{407613d8-6771-415b-a380-b3eb0239ac37}" ID="102" />
+        <Icon Package="{407613d8-6771-415b-a380-b3eb0239ac37}" ID="201" />
+        <ProjectType>VisualBasic</ProjectType>
+        <SortOrder>360</SortOrder>
+        <DefaultName>DSPMPVSCDProyectoIPS.DSPMPVSCD_DSLProyectoIPS</DefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

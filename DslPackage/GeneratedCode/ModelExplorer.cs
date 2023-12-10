@@ -67,7 +67,7 @@ namespace UPM_IPS.DSPMPVSCDProyectoIPS
 		///</summary>
 		protected override global::System.Guid RootElementDomainClassId
 		{
-			get { return global::UPM_IPS.DSPMPVSCDProyectoIPS.ExampleModel.DomainClassId; }
+			get { return global::UPM_IPS.DSPMPVSCDProyectoIPS.TapizDiagramaClases.DomainClassId; }
 		}
 		
 		/// <summary>
