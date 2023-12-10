@@ -1,0 +1,6 @@
+C:\Users\Danie\source\repos\Daniel17n\DSPMPVSCD\Debugging\bin\Debug\Debugging.dll
+C:\Users\Danie\source\repos\Daniel17n\DSPMPVSCD\Debugging\bin\Debug\Debugging.pdb
+C:\Users\Danie\source\repos\Daniel17n\DSPMPVSCD\Debugging\obj\Debug\Debugging.csproj.AssemblyReference.cache
+C:\Users\Danie\source\repos\Daniel17n\DSPMPVSCD\Debugging\obj\Debug\Debugging.csproj.CoreCompileInputs.cache
+C:\Users\Danie\source\repos\Daniel17n\DSPMPVSCD\Debugging\obj\Debug\Debugging.dll
+C:\Users\Danie\source\repos\Daniel17n\DSPMPVSCD\Debugging\obj\Debug\Debugging.pdb
