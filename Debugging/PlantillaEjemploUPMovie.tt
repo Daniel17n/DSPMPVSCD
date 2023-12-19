@@ -1,0 +1,90 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
+<#@ output extension=".txt" #>
+<#@ DSPMPVSCDProyectoIPS processor="DSPMPVSCDProyectoIPSDirectiveProcessor" requires="fileName='EjemploUPMovie.DSPMPVSCD_DSLProyectoIPS'" #>
+
+<#@ include file="EF.utility.CS.ttinclude" #>
+<#
+	var fileManager = EntityFrameworkTemplateFileManager.Create(this); 
+
+	// A partir de la apertura del siguiente fichero, la inyección de texto se escribe en él.
+	fileManager.StartNewFile("InformeUPMovie.txt");
+
+	WriteLine("Informe de configuración de la solución: " + this.TapizDiagramaClases.solucionDiagrama);
+	WriteLine("------------------------------------------------\n");
+	if (this.TapizDiagramaClases.Clases.Count == 0) 
+		WriteLine(">    Solución vacía. No se ha configurado ninguna clase.\n");
+	else 
+	{ 
+		int nC = contarClases(); // Función que cuenta la cantidad de clases normales
+		if (nC > 0)
+		{
+			WriteLine(">	Se han configurado " + nC + " clases: ");
+			informeClase(); // Función que genera un informe con las clases normales en el tapiz 
+		}
+		int nCE = contarClasesEnriquecidas(); // Función que cuenta la cantidad de clases enriquecidas
+		if (nCE > 0)
+		{
+			WriteLine(">	Se han configurado " + nCE + " clases enriquecidas: ");
+			informeClaseEnriquecida();  // Función que genera un informe con las clases normales en el tapiz 
+		}
+
+		// A partir de la apertura del siguiente fichero, la inyección de texto se escribe en él
+		fileManager.StartNewFile("InformeRelaciones.txt");
+		WriteLine("\nInforme de configuración de relaciones de la solución: " + this.TapizDiagramaClases.solucionDiagrama);
+	    WriteLine("------------------------------------------------\n");
+		if (nC + nCE > 1) // Este if comprueba que haya al menos 2 clases que puedan relacionarse entre sí
+		{
+			WriteLine(">	Informe de relaciones de herencia: ");
+			// Hacer una función que añada informes de las relaciones
+		}
+	}
+	// Cierra el proceso de creación de ficheros del documento.
+	
+	fileManager.Process();
+#>
+
+
+
+
+
+<#+
+	private int contarClases()
+	{
+		int n = 0;
+		foreach (Clase clase in this.TapizDiagramaClases.Clases)
+		{
+			if (clase is Clase) n++;
+		}
+		return n;
+	}
+#>
+
+<#+
+	private void informeClase() 
+	{
+		foreach(Clase clase in this.TapizDiagramaClases.Clases)
+		{
+			if (clase is Clase) WriteLine(">	C: " + clase.Nombre);
+		}
+	}
+#>
+
+<#+
+	private int contarClasesEnriquecidas()
+	{
+		int n = 0;
+		foreach(Clase clase in this.TapizDiagramaClases.Clases)
+		{
+			if (clase is ClaseEnriquecida) n++;
+		}
+		return n;
+	}
+#>
+
+<#+
+	private void informeClaseEnriquecida()
+	{
+		foreach(Clase clase in this.TapizDiagramaClases.Clases) 
+			if (clase is ClaseEnriquecida) WriteLine(">    CE: " + clase.Nombre);
+	}
+#>

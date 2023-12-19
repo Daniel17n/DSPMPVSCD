@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSPMPVSCDProyectoIPSDiagram dslVersion="1.0.0.0" Id="71d61ade-0f52-4728-89d2-8b51b665e64c" absoluteBounds="0, 0, 11.625, 9.125" name="Sample">
+  <tapizDiagramaClasesMoniker Id="5fd4cf1b-188a-4a76-967f-1880763f54a0" />
+  <nestedChildShapes>
+    <metaforaClase Id="38378b6d-eb4f-40f9-aa12-31ada5cbf387" absoluteBounds="9.375, 2.25, 1.375, 1">
+      <claseMoniker Id="e684392e-a02a-4964-82bb-2b769d053603" />
+      <nestedChildShapes>
+        <metaforaAtributo Id="6debc4c6-2704-45a1-a850-67863970a746" absoluteBounds="9.5, 2.625, 1.125, 0.5">
+          <atributoMoniker nombre="/e684392e-a02a-4964-82bb-2b769d053603/Dominio" />
+        </metaforaAtributo>
+      </nestedChildShapes>
+    </metaforaClase>
+    <metaforaClase Id="1ad2d0cc-c705-45ac-8f9a-95a86ef96f0b" absoluteBounds="8.875, 5.25, 2.5, 3.625">
+      <claseMoniker Id="81bdd1ba-e7e7-4eb8-8c45-f8312bce5434" />
+      <nestedChildShapes>
+        <metaforaAtributo Id="27eca132-8f42-4942-bd12-e9d2cf710279" absoluteBounds="9, 5.625, 2.25, 0.5">
+          <atributoMoniker nombre="/81bdd1ba-e7e7-4eb8-8c45-f8312bce5434/Correo" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="995b0f93-3d79-4a84-a227-caceb4b4e317" absoluteBounds="9, 6.625, 2.25, 0.5">
+          <atributoMoniker nombre="/81bdd1ba-e7e7-4eb8-8c45-f8312bce5434/Nombre" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="9de39316-6d66-4ed2-8fbe-b106deb2bef4" absoluteBounds="9, 7.125, 2.25, 0.5">
+          <atributoMoniker nombre="/81bdd1ba-e7e7-4eb8-8c45-f8312bce5434/Télefono" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="6ffb1dd2-6018-42e3-985f-41f1aa6ddb50" absoluteBounds="9, 7.625, 2.25, 0.5">
+          <atributoMoniker nombre="/81bdd1ba-e7e7-4eb8-8c45-f8312bce5434/EsCliente" />
+        </metaforaAtributo>
+        <metaforaOperacion Id="3ac3f2eb-fe2b-4172-97e1-b273d5cc0347" absoluteBounds="9, 8.25, 2.25, 0.5">
+          <operacionMoniker Id="5c554e2f-fa97-4513-b161-cf6d42454a10" />
+        </metaforaOperacion>
+        <metaforaAtributo Id="e9a8ad5b-0e26-4235-ac03-0b05088c68a2" absoluteBounds="9, 6.125, 2.25, 0.5">
+          <atributoMoniker nombre="/81bdd1ba-e7e7-4eb8-8c45-f8312bce5434/Contraseña" />
+        </metaforaAtributo>
+      </nestedChildShapes>
+    </metaforaClase>
+    <metaforaClase Id="f70673a2-769c-4ae5-ab5e-ec36a8262b84" absoluteBounds="4.75, 1.875, 1.625, 2.625">
+      <claseMoniker Id="0b5b4b34-f28d-4add-868b-c8eea70d8c64" />
+      <nestedChildShapes>
+        <metaforaAtributo Id="5b6ea0cb-9c2b-4134-a28a-1d78eb65ecc7" absoluteBounds="4.875, 2.375, 1.375, 0.5">
+          <atributoMoniker nombre="/0b5b4b34-f28d-4add-868b-c8eea70d8c64/Nombre" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="095c140c-1eb8-46f8-a7a1-f85afe60ca51" absoluteBounds="4.875, 2.875, 1.375, 0.5">
+          <atributoMoniker nombre="/0b5b4b34-f28d-4add-868b-c8eea70d8c64/Duracion" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="93b7b428-d449-45d3-b4df-2806ecb5a7b8" absoluteBounds="4.875, 3.375, 1.375, 0.5">
+          <atributoMoniker nombre="/0b5b4b34-f28d-4add-868b-c8eea70d8c64/Género" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="6d0a9534-38f2-449a-a387-32ff9a928cce" absoluteBounds="4.875, 3.875, 1.375, 0.5">
+          <atributoMoniker nombre="/0b5b4b34-f28d-4add-868b-c8eea70d8c64/Precio" />
+        </metaforaAtributo>
+      </nestedChildShapes>
+    </metaforaClase>
+    <metaforaClase Id="110bbf18-3917-4444-80dd-aa7e2552d5f9" absoluteBounds="1.375, 2.625, 1.625, 1">
+      <claseMoniker Id="6b2fe3b4-6df3-4c06-8b58-63b36d6e52bf" />
+      <nestedChildShapes>
+        <metaforaAtributo Id="c668751a-510c-4f1d-8afd-5523a125d725" absoluteBounds="1.5, 3, 1.375, 0.5">
+          <atributoMoniker nombre="/6b2fe3b4-6df3-4c06-8b58-63b36d6e52bf/NumEpisodios" />
+        </metaforaAtributo>
+      </nestedChildShapes>
+    </metaforaClase>
+    <metaforaClase Id="57872e90-f4b7-48db-86c7-85ff65708b8a" absoluteBounds="4.5, 6, 2.25, 2.875">
+      <claseMoniker Id="dbf11df0-af60-4f33-ba66-2d3956428b79" />
+      <nestedChildShapes>
+        <metaforaAtributo Id="ffa0f6a3-d30e-46a5-9286-690e2444ab57" absoluteBounds="4.625, 6.375, 1.375, 0.5">
+          <atributoMoniker nombre="/dbf11df0-af60-4f33-ba66-2d3956428b79/Nombre" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="b8e6c1d6-a880-4395-8191-32e7b8817894" absoluteBounds="4.625, 6.875, 1.375, 0.5">
+          <atributoMoniker nombre="/dbf11df0-af60-4f33-ba66-2d3956428b79/Descripción" />
+        </metaforaAtributo>
+        <metaforaOperacion Id="4ecb16b3-da04-4c33-9182-23974390411d" absoluteBounds="4.625, 7.625, 2, 0.5">
+          <operacionMoniker Id="d55f174c-2319-4ab5-b0f6-ae917469e9fb" />
+        </metaforaOperacion>
+        <metaforaOperacion Id="595767e5-0eef-4690-bd84-7945a9804092" absoluteBounds="4.625, 8.25, 2, 0.5">
+          <operacionMoniker Id="e088f95c-6e70-434a-8eca-44ec08fce3ba" />
+        </metaforaOperacion>
+      </nestedChildShapes>
+    </metaforaClase>
+    <metaforaHerencia Id="d92accc7-2c69-4f82-9018-37393d3fee45" edgePoints="[(3 : 3.125); (4.75 : 3.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <claseHeredaClaseMoniker Id="985b89fe-2f94-448e-bbd5-88beccf33446" />
+      <relativeChildShapes />
+      <nodes>
+        <metaforaClaseMoniker Id="110bbf18-3917-4444-80dd-aa7e2552d5f9" />
+        <metaforaClaseMoniker Id="f70673a2-769c-4ae5-ab5e-ec36a8262b84" />
+      </nodes>
+    </metaforaHerencia>
+    <metaforaAgregacion Id="b604ff51-669b-4078-9c0a-fc27d51cc16c" edgePoints="[(5.5625 : 6); (5.5625 : 4.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <claseAgregaClaseMoniker Id="35341c2b-032c-461a-a53f-13698dedd194" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="5.625, 5.1875, 0.4011026918888092, 0.181884765625" shapeFieldName="NombreRelacion" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <metaforaClaseMoniker Id="57872e90-f4b7-48db-86c7-85ff65708b8a" />
+        <metaforaClaseMoniker Id="f70673a2-769c-4ae5-ab5e-ec36a8262b84" />
+      </nodes>
+    </metaforaAgregacion>
+    <metaforaAsociacion Id="c8556ce3-4145-4aca-b0d4-5696d8e6d0bb" edgePoints="[(8.875 : 7.4375); (6.75 : 7.4375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <claseAsociaClaseMoniker Id="15faceae-80d0-435a-bae3-7b1ff54063a3" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="7.625, 7.5, 0.3784586489200592, 0.181884765625" shapeFieldName="NombreRelacion" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <metaforaClaseMoniker Id="1ad2d0cc-c705-45ac-8f9a-95a86ef96f0b" />
+        <metaforaClaseMoniker Id="57872e90-f4b7-48db-86c7-85ff65708b8a" />
+      </nodes>
+    </metaforaAsociacion>
+    <metaforaComposicion Id="7549eef8-4c2d-4685-84d4-c9466adade84" edgePoints="[(6.375 : 2.75); (9.375 : 2.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <claseComponeClaseMoniker Id="7b7dfcb3-b400-4fba-8343-3ec0dce02426" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="7.6875, 2.5, 0.3478190004825592, 0.181884765625" shapeFieldName="NombreRelacion" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <metaforaClaseMoniker Id="f70673a2-769c-4ae5-ab5e-ec36a8262b84" />
+        <metaforaClaseMoniker Id="38378b6d-eb4f-40f9-aa12-31ada5cbf387" />
+      </nodes>
+    </metaforaComposicion>
+    <metaforaAsociacion Id="8fd51a9c-b1a5-4a12-a390-0d93a87b9ca5" edgePoints="[(10.0625 : 5.25); (10.0625 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <claseAsociaClaseMoniker Id="bbfa69a1-3f33-483c-a1a4-15e2bbdc3587" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="10.125, 4.1875, 0.4920450747013092, 0.181884765625" shapeFieldName="NombreRelacion" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <metaforaClaseMoniker Id="1ad2d0cc-c705-45ac-8f9a-95a86ef96f0b" />
+        <metaforaClaseMoniker Id="38378b6d-eb4f-40f9-aa12-31ada5cbf387" />
+      </nodes>
+    </metaforaAsociacion>
+    <metaforaAsociacion Id="75c18120-c15b-44e1-a836-be524bbbc6d4" edgePoints="[(8.875 : 6.19123862168475); (8.5 : 6.19123862168475); (8.5 : 4.35880134610899); (6.375 : 4.35880134610899)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller">
+      <claseAsociaClaseMoniker Id="e664da9f-3cb8-4ec0-a98c-21fb33cf4694" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="7.75, 4.125, 0.65732824802398682, 0.181884765625" shapeFieldName="NombreRelacion" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <metaforaClaseMoniker Id="1ad2d0cc-c705-45ac-8f9a-95a86ef96f0b" />
+        <metaforaClaseMoniker Id="f70673a2-769c-4ae5-ab5e-ec36a8262b84" />
+      </nodes>
+    </metaforaAsociacion>
+    <metaforaClase Id="55719a70-2b50-4034-aec0-075134392b66" absoluteBounds="1.375, 6.25, 1.625, 2.5">
+      <claseMoniker Id="21c0edf9-e579-485a-9c61-9790abfd183d" />
+      <nestedChildShapes>
+        <metaforaAtributo Id="05329f6c-7ae2-417e-9e17-e58166a5ec4c" absoluteBounds="1.5, 6.625, 1.375, 0.5">
+          <atributoMoniker nombre="/21c0edf9-e579-485a-9c61-9790abfd183d/Terror" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="b6b2e105-9f8b-4e2a-b15e-0e7e26df262b" absoluteBounds="1.5, 7.125, 1.375, 0.5">
+          <atributoMoniker nombre="/21c0edf9-e579-485a-9c61-9790abfd183d/Ciencia Ficción" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="5410a291-1e5a-49c1-b017-ad34b53b0af1" absoluteBounds="1.5, 7.625, 1.375, 0.5">
+          <atributoMoniker nombre="/21c0edf9-e579-485a-9c61-9790abfd183d/Fantasía" />
+        </metaforaAtributo>
+        <metaforaAtributo Id="00628d9d-68fa-4f5e-b3c4-193c4b3739c5" absoluteBounds="1.5, 8.125, 1.375, 0.5">
+          <atributoMoniker nombre="/21c0edf9-e579-485a-9c61-9790abfd183d/Acción" />
+        </metaforaAtributo>
+      </nestedChildShapes>
+    </metaforaClase>
+  </nestedChildShapes>
+</dSPMPVSCDProyectoIPSDiagram>

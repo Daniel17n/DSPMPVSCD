@@ -1,0 +1,17 @@
+﻿
+
+Informe de configuración de la solución: 
+------------------------------------------------
+
+>	Se han configurado 6 clases: 
+>	C: UPMovie
+>	C: Cliente
+>	C: Película
+>	C: Serie
+>	C: Lista de Reproducción
+>	C: TGénero
+
+Informe de configuración de relaciones de la solución: 
+------------------------------------------------
+
+>	Informe de relaciones de herencia: 
